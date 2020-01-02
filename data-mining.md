@@ -50,7 +50,7 @@
 
 1. Decision trees and classification rules can be easy to interpret :heavy_check_mark:
 
-1.--
+---
 
 1. The **range** is the difference between the largest (max) and the smallest (min).
 
@@ -92,7 +92,7 @@
 
 1. **Binary** attributes are nominal attributes with only two possible states (such as 1 and 9 or true and false).
 
-1.--
+---
 
 1. Bayesian classifiers is  
    A. A class of learning algorithm that tries to find an optimum classification of a set of examples using the probabilistic theory.  
