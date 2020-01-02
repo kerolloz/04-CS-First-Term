@@ -1,0 +1,5 @@
+plugins:
+  - jemoji
+aux_links:
+  "04-CS-First-Term on GitHub":
+    - "//github.com/kerolloz/04-CS-First-Term"
