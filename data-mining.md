@@ -457,3 +457,120 @@
    c. Data Discretization  
    d. Data Reduction  
    **Answer:** Data Visualization
+
+1. Incorrect or invalid data is known as **\_\_\_**  
+   Select one:  
+   a. Outlier  
+   b. Missing data  
+   c. Changing data  
+   d. Noisy data  
+   **Answer:** Noisy data
+
+1. Data Visualization in mining cannot be done using  
+   Select one:  
+   a. Graphs  
+   b. Information Graphics  
+   c. Charts  
+   d. Photos  
+   **Answer:** Photos
+
+1. Nominal and ordinal attributes can be collectively referred to as \_\_\_ attributes, Select one:  
+   a. perfect  
+   b. consistent  
+   c. qualitative  
+   d. optimized  
+   **Answer:** qualitative
+
+1. Identify the example of Nominal attribute  
+   Select one:  
+   a. Salary  
+   b. Temperature  
+   c. Gender  
+   d. Mass  
+   **Answer:** Gender
+
+1. Which of the following are descriptive data mining activities?  
+   Select one:  
+   a. Clustering  
+   b. Deviation detection  
+   c. Regression  
+   d. Classification  
+   **Answer:** Clustering
+
+1. Which statement is not TRUE regarding a data mining task?  
+   Select one:  
+   a. Deviation detection is a predictive data mining task  
+   b. Classification is a predictive data mining task  
+   c. Clustering is a descriptive data mining task  
+   d. Regression is a descriptive data mining task  
+   **Answer:** Regression is a descriptive data mining task
+1. Which of the following is NOT data mining efficiency/scalability issue?  
+   Select one:  
+   a. The running time of a data mining algorithm  
+   b. Incremental execution  
+   c. Data partitioning  
+   d. Easy to use user interface  
+   **Answer:** Easy to use user interface
+
+1. Synonym for data mining is  
+   Select one:  
+   a. Data Warehouse  
+   b. Knowledge discovery in database  
+   c. Business intelligence  
+   d. OLAP  
+   **Answer:** Knowledge discovery in database
+
+1. Dimensionality reduction reduces the data set size by removing **\_\_\_**  
+   Select one:  
+   a. irrelevant attributes  
+   b. composite attributes  
+   c. derived attributes  
+   d. relevant attributes  
+   **Answer:** irrelevant attributes
+
+1. Which of the following is NOT an example of data quality related issue?  
+   Select one:  
+   a. Using a field for different purposes  
+   b. Contradicting values  
+   c. Noise  
+   d. Multiple date formats  
+   **Answer:** Multiple date formats
+
+1. Similarity is a numerical measure whose value is  
+   Select one:  
+   a. Higher when objects are more alike  
+   b. Lower when objects are more alike  
+   c. Increases with Minkowski distance  
+   d. Higher when objects are not alike  
+   **Answer:** Higher when objects are more alike
+
+1. The dissimilarity between two data objects is  
+   Select one:  
+   a. Lower when objects are more alike  
+   b. Higher when objects are more alike  
+   c. Lower when objects are not alike  
+   d. Applies only categorical attributes  
+   **Answer:** Lower when objects are more alike
+1. Which of the following data mining task is known as Market Basket Analysis?  
+   Select one:  
+   a. Classification  
+   b. Regression  
+   c. Association Analysis  
+   d. Outlier Analysis  
+   **Answer:** Association Analysis
+
+1. The difference between supervised learning and unsupervised learning is given by  
+   Select one:  
+   a. unlike unsupervised learning, supervised learning needs labeled data  
+   b. unlike unsupervised learning, supervised learning can be used to detect outliers  
+   c. unlike supervised leaning, unsupervised learning can form new classes  
+   d. there is no difference  
+   **Answer:** unlike unsupervised learning, supervised learning needs labeled data
+
+1. The Data Sets are made up of  
+   Select one:  
+   a. Data Objects  
+   b. Attributes  
+   c. Dimensions  
+   d. Database  
+   **Answer:** Data Objects
