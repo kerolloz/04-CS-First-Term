@@ -24,6 +24,32 @@
 
 1. Dimensionality reduction may help to eliminate irrelevant features or reduce noise. :heavy_check_mark:
 
+1. Data mining turns a large collection of data into knowledge. :heavy_check_mark:
+
+1. Attribute is a data field, representing the characteristics or features of data object. :heavy_check_mark:
+
+1. Variance and standard deviation are measures of data dispersion. :heavy_check_mark:
+
+1. Data mining algorithms must be efficient and scalable in order to effectively extract information from huge amounts of data :heavy_check_mark:
+
+1. A major problem with the mean is its sensitivity to extreme (e.g., outlier) values. :heavy_check_mark:
+
+1. The Table consists of a set of attributes (rows) and usually stores a large set of tuples columns). :x:
+
+1. In clustering techniques, one cluster can hold at most one object. :x:
+
+1. Dimensionality reduction may help to eliminate irrelevant features. :heavy_check_mark:
+
+1. Feature subset selection is another way to reduce dimensionality :heavy_check_mark:
+
+1. Data visualization aims to communicate data clearly and effectively through graphical representation. :heavy_check_mark:
+
+1. Ensemble methods can be used to increase overall accuracy by learning and combining a series of individual (base) classifier models. :x:
+
+1. The learning and classification steps of decision tree induction are complex and slow. :x:
+
+1. Decision trees and classification rules can be easy to interpret  :heavy_check_mark:
+
 ---
 
 1. The **range** is the difference between the largest (max) and the smallest (min).
@@ -50,4 +76,18 @@
 
 1. "Data about data" is referred to as **meta data**.
 
-1. **data reduction** is the process of reducing the number of random variables or attributes under consideration.
+1. **Data reduction** is the process of reducing the number of random variables or attributes under consideration.
+
+1. Classification has numerous applications, including **fraud detection, performance prediction, manufacturing, and medical diagnosis**
+
+1. When the class label of each training tuple is _provided_, this type is known as **supervised learning**.
+
+1. In the **learning** step, a classifier model is built describing a predetermined set of data classes or concepts.
+
+1. The **accuracy** of a classifier on a give test set is the percentage of test set tuples that are correctly classified by the classifier.
+
+1. **Scalability** is the ability to construct the classifier efficiently given large amounts of data.
+
+1. An **ordinal** attribute is an attribute with possible values that have a meaningful order or ranking among them.
+
+1. **Binary** attributes are nominal attributes with only two possible states (such as 1 and 9 or true and false).
