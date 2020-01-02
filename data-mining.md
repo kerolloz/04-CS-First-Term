@@ -48,7 +48,7 @@
 
 1. The learning and classification steps of decision tree induction are complex and slow. :x:
 
-1. Decision trees and classification rules can be easy to interpret  :heavy_check_mark:
+1. Decision trees and classification rules can be easy to interpret :heavy_check_mark:
 
 ---
 
@@ -91,3 +91,281 @@
 1. An **ordinal** attribute is an attribute with possible values that have a meaningful order or ranking among them.
 
 1. **Binary** attributes are nominal attributes with only two possible states (such as 1 and 9 or true and false).
+
+---
+
+1. Bayesian classifiers is
+   A. A class of learning algorithm that tries to find an optimum classification of a set of examples using the probabilistic theory.
+   B. Any mechanism employed by a learning system to constrain the search space of a hypothesis
+   C. An approach to the design of learning algorithms that is inspired by the fact that when people encounter new situations, they often explain them by reference to familiar experiences, adapting the explanations to fit the new situation.
+
+   **Answer:** A
+
+1. Algorithm is
+   A. It uses machine-learning techniques. Here program can learn from past experience and adapt themselves to new situations
+   B. Computational procedure that takes some value as input and produces some value as output
+   C. Science of making machines performs tasks that would require intelligence when performed by humans
+
+   **Answer:** B
+
+1. Classification is
+   A. A subdivision of a set of examples into a number of classes
+   B. A measure of the accuracy, of the classification of a concept that is given by a certain theory
+   C. The task of assigning a classification to a set of examples
+
+   **Answer:** A
+
+1. Binary attribute are
+   A. This takes only two values. In general, these values will be 0 and 1 and .they can be coded as one bit
+   B. The natural environment of a certain species
+   C. Systems that can be used without knowledge of internal operations
+
+   **Answer:** A
+
+1. Classification accuracy is
+   A. A subdivision of a set of examples into a number of classes
+   B. Measure of the accuracy, of the classification of a concept that is given by a certain theory
+   C. The task of assigning a classification to a set of examples
+
+   **Answer:** B
+
+1. Cluster is
+   A. Group of similar objects that differ significantly from other objects
+   B. Operations on a database to transform or simplify data in order to prepare it for a machine-learning algorithm
+   C. Symbolic representation of facts or ideas from which information can potentially be extracted
+
+   **Answer:** A
+
+1. A definition of a concept is-----if it recognizes all the instances of that concept
+   A. Complete
+   B. Consistent
+   C. Constant
+
+   **Answer:** A
+
+1. Data mining is
+   A. The actual discovery phase of a knowledge discovery process
+   B. The stage of selecting the right data for a KDD process
+   C. A subject-oriented integrated time variant non-volatile collection of data in support of management
+
+   **Answer:** A
+
+1. A definition or a concept is------------- if it classifies any examples as coming within the concept
+   A. Complete
+   B. Consistent
+   C. Constant
+
+   **Answer:** B
+
+1. Data selection is
+   A. The actual discovery phase of a knowledge discovery process
+   B. The stage of selecting the right data for a KDD process
+   C. A subject-oriented integrated time variant non-volatile collection of data in support of management
+
+   **Answer:** B
+
+1. Classification task referred to
+   A. A subdivision of a set of examples into a number of classes
+   B. A measure of the accuracy, of the classification of a concept that is given by a certain theory
+   C. The task of assigning a classification to a set of examples
+
+   **Answer:** C
+
+1. Hidden knowledge referred to
+   A. A set of databases from different vendors, possibly using different database paradigms
+   B. An approach to a problem that is not guaranteed to work but performs well in most cases
+   C. Information that is hidden in a database and that cannot be recovered by a simple SQL query.
+
+   **Answer:** C
+
+1. Incremental learning referred to
+   A. Machine-learning involving different techniques
+   B. The learning algorithmic analyzes the examples on a systematic basis and makes incremental adjustments to the theory that is learned
+   C. Learning by generalizing from examples
+
+   **Answer:** B
+
+1. Inductive learning is
+   A. Machine-learning involving different techniques
+   B. The learning algorithmic analyzes the examples on a systematic basis and makes incremental adjustments to the theory that is learned
+   C. Learning by generalizing from examples
+
+   **Answer:** C
+
+1. KDD (Knowledge Discovery in Databases) is referred to
+   A. Non-trivial extraction of implicit previously unknown and potentially useful information from data
+   B. Set of columns in a database table that can be used to identify each record within this table uniquely.
+   C. collection of interesting and useful patterns in a database
+
+   **Answer:** A
+
+1. Learning is
+   A. The process of finding the right formal representation of a certain body of knowledge in order to represent it in a knowledge-based system
+   B. It automatically maps an external signal space into a system's internal representational space. They are useful in the performance of classification tasks.
+   C. A process where an individual learns how to carry out a certain task when making a transition from a situation in which the task cannot be carried out to a situation in which the same task under the same circumstances can be carried out.
+
+   **Answer:** C
+
+1. Naive prediction is
+   A. A class of learning algorithms that try to derive a Prolog program from examples
+   B. A table with n independent attributes can be seen as an n- dimensional space.
+   C. A prediction made using an extremely simple method, such as always predicting the same output.
+
+   **Answer:** C (مع تحيات حمادة هلال والأسرة الكريمة)
+
+1. Knowledge is referred to
+   A. Non-trivial extraction of implicit previously unknown and potentially useful information from data
+   B. Set of columns in a database table that can be used to identify each record within this table uniquely
+   C. collection of interesting and useful patterns in a database
+
+   **Answer:** C
+
+1. Node is
+   A. A component of a network
+   B. In the context of KDD and data mining, this refers to random errors in a database table.
+   C. One of the defining aspects of a data warehouse
+
+   **Answer:** A
+
+1. Machine learning is
+   A. An algorithm that can learn
+   B. A sub-discipline of computer science that deals with the design and implementation of learning algorithms
+   C. An approach that abstracts from the actual strategy of an individual algorithm and can therefore be applied to any other form of machine learning.
+
+   **Answer:** B
+
+1. Multi-dimensional knowledge is
+   A. A class of learning algorithms that try to derive a Prolog program from examples
+   B. A table with n independent attributes can be seen as an n-dimensional space
+   C. A prediction made using an extremely simple method, such as always predicting the same output.
+
+   **Answer:** B
+
+1. Prediction is
+   A. The result of the application of a theory or a rule in a specific case
+   B. One of several possible enters within a database table that is chosen by the designer as the primary means of accessing the data in the table.
+   C. Discipline in statistics that studies ways to find the most interesting projections of multi-dimensional spaces.
+
+   **Answer:** A
+
+1. Noise is
+   A. A component of a network
+   B. In the context of KDD and data mining, this refers to random errors in a database table.
+   C. One of the defining aspects of a data warehouse
+
+   **Answer:** B
+
+1. The problem of finding hidden structure in unlabeled data is called
+   A. Supervised learning
+   B. Unsupervised learning
+   C. Reinforcement learning
+   **Answer:** B
+
+1. Task of inferring a model from labeled training data is called
+   A. Unsupervised learning
+   B. Supervised learning
+   C. Reinforcement learning
+   **Answer:** B
+
+1. Some telecommunication company wants to segment their customers into distinct groups in order to send appropriate subscription offers, this is an example of
+   A. Supervised learning
+   B. Data extraction
+   C. Serration
+   D. Unsupervised learning
+   **Answer:** D
+
+1. Self-organizing maps are an example of
+   A. Unsupervised learning
+   B. Supervised learning
+   C. Reinforcement learning
+   D. Missing data imputation
+   **Answer:** A
+
+1. You are given data about seismic activity in Japan, and you want to predict a magnitude of the next earthquake, this is in an example of
+   A. Supervised learning
+   B. Unsupervised learning
+   C. Serration
+   D. Dimensionality reduction
+   **Answer:** A
+
+1. Discriminating between spam and ham e-mails is a classification task, true or false?
+   A. True
+   B. False
+   **Answer:** A
+
+1. In the example of predicting number of babies based on storks’ population size, number of babies is
+   A. outcome
+   B. feature
+   C. attribute
+   D. observation
+   **Answer:** A
+
+1. which of the following is not involve in data mining?
+   A. Knowledge extraction
+   B. Data archaeology
+   C. Data exploration
+   D. Data transformation
+   **Answer:** D
+
+1. Which is the right approach of Data Mining?
+   A. Infrastructure, exploration, analysis, interpretation, exploitation
+   B. Infrastructure, exploration, analysis, exploitation, interpretation
+   C. Infrastructure, analysis, exploration, interpretation, exploitation
+   D. Infrastructure, analysis, exploration, exploitation, interpretation
+   **Answer:** A
+
+1. Which of the following issue is considered before investing in Data Mining?
+   A. Functionality
+   B. Vendor consideration
+   C. Compatibility
+   D. All of the above
+   **Answer:** D
+
+1. Adaptive system management is
+   A. It uses machine-learning techniques. Here program can learn from past experience and adapt themselves to new situations
+   B. Computational procedure that takes some value as input and produces some value as output.
+   C. Science of making machines performs tasks that would require intelligence when performed by humans
+
+   **Answer:** A
+
+1. Bayesian classifiers is
+   A. A class of learning algorithm that tries to find an optimum classification of a set of examples using the probabilistic theory.
+   B. Any mechanism employed by a learning system to constrain the search space of a hypothesis
+   C. An approach to the design of learning algorithms that is inspired by the fact that when people encounter new situations, they often explain them by reference to familiar experiences, adapting the explanations to fit the new situation.
+
+   **Answer:** A
+
+1. Classification accuracy is
+   A. A subdivision of a set of examples into a number of classes
+   B. Measure of the accuracy, of the classification of a concept that is given by a certain theory
+   C. The task of assigning a classification to a set of examples
+
+   **Answer:** B
+
+1. Cluster is
+   A. Group of similar objects that differ significantly from other objects
+   B. Operations on a database to transform or simplify data in order to prepare it for a machine-learning algorithm
+   C. Symbolic representation of facts or ideas from which information can potentially be extracted
+
+   **Answer:** A
+
+1. Data mining is
+   A. The actual discovery phase of a knowledge discovery process
+   B. The stage of selecting the right data for a KDD process
+   C. A subject-oriented integrated time variant non-volatile collection of data in support of management
+
+   **Answer:** A
+
+1. Data independence means
+   A. Data is defined separately and not included in programs
+   B. Programs are not dependent on the physical attributes of data.
+   C. Programs are not dependent on the logical attributes of data
+   D. Both (B) and (C).
+   **Answer:** D
+
+1. Key to represent relationship between tables is called
+   A. Primary key
+   B. Secondary Key
+   C. Foreign Key
+
+   **Answer:** C
