@@ -574,3 +574,75 @@
    c. Dimensions  
    d. Database  
    **Answer:** Data Objects
+
+1. …………………. is an essential process where intelligent methods are applied to extract data patterns.  
+   A) Data warehousing  
+   B) Data mining  
+   C) Text mining  
+   D) Data selection  
+   **Answer:** B) Data mining
+
+1. Data mining can also applied to other forms such as …………….  
+   i) Data streams  
+   ii) Sequence data  
+   iii) Networked data  
+   iv) Text data  
+   v) Spatial data  
+   A) i, ii, iii and v only  
+   B) ii, iii, iv and v only  
+   C) i, iii, iv and v only  
+   D) All i, ii, iii, iv and v  
+   **Answer:** D) All i, ii, iii, iv and v
+
+1. Which of the following is not a data mining functionality?  
+   A) Characterization and Discrimination  
+   B) Classification and regression  
+   C) Selection and interpretation  
+   D) Clustering and Analysis  
+   **Answer:** C) Selection and interpretation
+
+1. ……………………….. is a summarization of the general characteristics or features of a target class of data.  
+   A) Data Characterization  
+   B) Data Classification  
+   C) Data discrimination  
+   D) Data selection  
+   **Answer:** A) Data Characterization
+
+1. ……………………….. is a comparison of the general features of the target class data objects against the general features of objects from one or multiple contrasting classes.  
+   A) Data Characterization  
+   B) Data Classification  
+   C) Data discrimination  
+   D) Data selection  
+   **Answer:** C) Data discrimination
+
+1. ……………………….. is the process of finding a model that describes and distinguishes data classes or concepts.  
+   A) Data Characterization  
+   B) Data Classification  
+   C) Data discrimination  
+   D) Data selection  
+   **Answer:** B) Data Classification
+
+1. The various aspects of data mining methodologies is/are ……………….  
+   i) Mining various and new kinds of knowledge  
+   ii) Mining knowledge in multidimensional space  
+   iii) Pattern evaluation and pattern or constraint-guided mining.  
+   iv) Handling uncertainty, noise, or incompleteness of data  
+   A) i, ii and iv only  
+   B) ii, iii and iv only  
+   C) i, ii and iii only  
+   D) All i, ii, iii and iv  
+   **Answer:** D) All i, ii, iii and iv
+
+1. The full form of KDD is ………………  
+   A) Knowledge Database  
+   B) Knowledge Discovery Database  
+   C) Knowledge Data House  
+   D) Knowledge Data Definition  
+   **Answer:** B) Knowledge Discovery
+
+1. The output of KDD is ………….  
+   A) Data  
+   B) Information  
+   C) Query  
+   D) Useful information  
+   **Answer:** D) Useful information
