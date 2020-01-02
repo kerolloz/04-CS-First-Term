@@ -6,7 +6,7 @@
 
 1. A major problem with the mean is its sensitivity to extreme (outlier) values. (T)
 
-1. Blievability reflects how much the data are trusted by users, while interpretability reflects how eady the data are understood. (T)
+1. Blievability reflects how much the data are trusted by users, while interpretability reflects how easy the data are understood. (T)
 
 1. clustering means measuring the similarity among a set of attributes to predict similar clusters of a given set of data points.
 
@@ -23,8 +23,6 @@
 1. Redundant data occur often when integrating multiple databases.
 
 1. Dimensionality reduction may help to eliminate irrelevant features or reduce noise.
-
-1. Feature subset selection is another way to reduce dimensionality.
 
 ---
 
