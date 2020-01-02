@@ -50,7 +50,7 @@
 
 1. Decision trees and classification rules can be easy to interpret :heavy_check_mark:
 
----
+1.--
 
 1. The **range** is the difference between the largest (max) and the smallest (min).
 
@@ -92,7 +92,7 @@
 
 1. **Binary** attributes are nominal attributes with only two possible states (such as 1 and 9 or true and false).
 
----
+1.--
 
 1. Bayesian classifiers is  
    A. A class of learning algorithm that tries to find an optimum classification of a set of examples using the probabilistic theory.  
@@ -363,3 +363,97 @@
    B. Secondary Key  
    C. Foreign Key  
    **Answer:** C
+
+1. Which of the following activities is NOT a data mining task? Select one:  
+   a. Monitoring the heart rate of a patient for abnormalities  
+   b. Monitoring and predicting failures in a hydro power plant  
+   c. Predicting the future stock price of a company using historical records  
+   d. Extracting the frequencies of a sound wave  
+   **Answer:** Extracting the frequencies of a sound wave
+
+1. Which of the following is not a data mining task?  
+   Select one:  
+   a. Feature Subset Detection  
+   b. Association Rule Discovery  
+   c. Regression  
+   d. Sequential Pattern Discovery  
+   **Answer:** Feature Subset Detection
+
+1. Value set {poor, average, good, excellent} is an example of Select one:  
+   a. Nominal attribute  
+   b. Numeric attribute  
+   c. Continuous attribute  
+   d. Ordinal attribute  
+   **Answer:** Ordinal attribute
+
+1. Which data mining task can be used for predicting wind velocities as a function of temperature, humidity, air pressure, etc.? Select one:  
+   a. Cluster Analysis  
+   b. Regression  
+   c. Classification  
+   d. Sequential pattern discovery  
+   **Answer:** Regression
+
+1. Identify the example of sequence data, Select one:  
+   a. weather forecast  
+   b. data matrix  
+   c. market basket data  
+   d. genomic data  
+   **Answer:** genomic data
+
+1. In a data mining task where it is not clear what type of patterns could be interesting, the data mining system should, Select one:  
+   a. handle different granularities of data and patterns  
+   b. perform all possible data mining tasks  
+   c. allow interaction with the user to guide the mining process  
+   d. perform both descriptive and predictive tasks  
+   **Answer:** allow interaction with the user to guide the mining process
+1. Removing duplicate records is a data mining process called .... Select one:  
+   a. data isolation  
+   b. recovery  
+   c. data pruning  
+   d. data cleaning  
+   **Answer:** data cleaning
+
+1. Various visualization techniques are used in .... step of KDD, Select one:  
+   a. selection  
+   b. interpretation  
+   c. transformation  
+   d. data mining  
+   **Answer:** interpretation
+
+1. Data set {brown, black, blue, green , red} is example of  
+   Select one:  
+   a. Continuous attribute  
+   b. Ordinal attribute  
+   c. Numeric attribute  
+   d. Nominal attribute  
+   **Answer:** Nominal attribute
+
+1. Which of the following is NOT a data quality related issue?  
+   Select one:  
+   a. Attribute value range  
+   b. Outlier records  
+   c. Missing values  
+   d. Duplicate records  
+   **Answer:** Attribute value range
+
+1. To detect fraudulent usage of credit cards, the following data mining task should be used  
+   Select one:  
+   a. Outlier analysis  
+   b. prediction  
+   c. association analysis  
+   d. feature selection  
+   **Answer:** Outlier analysis
+
+1. Which of the following is NOT example of ordinal attributes? Select one:  
+   a. Ordered numbers  
+   b. Military ranks  
+   c. Zip codes  
+   d. Movie ratings  
+   **Answer:** Zip codes
+
+1. Which of the following is not a data pre-processing methods, Select one:  
+   a. Data Cleaning  
+   b. Data Visualization  
+   c. Data Discretization  
+   d. Data Reduction  
+   **Answer:** Data Visualization
