@@ -638,7 +638,7 @@
    B) Knowledge Discovery Database  
    C) Knowledge Data House  
    D) Knowledge Data Definition  
-   **Answer:** B) Knowledge Discovery
+   **Answer:** B) Knowledge Discovery Database
 
 1. The output of KDD is ………….  
    A) Data  
@@ -646,3 +646,260 @@
    C) Query  
    D) Useful information  
    **Answer:** D) Useful information
+
+1. Data mining is an integral part of **\_\_\_**.  
+   A. SE.  
+   B. DBMS.  
+   C. KDD.  
+   D. OS.  
+   **Answer:** C
+
+1. KDD describes the **\_\_\_**.  
+   A. whole process of extraction of knowledge from data  
+   B. extraction of data  
+   C. extraction of information  
+   D. extraction of rules  
+   **Answer:** A 4.
+
+1. \***\*\_\_\_\_\*\***predicts future trends &behaviors, allowing business managers to make proactive,knowledge-driven decisions.  
+   A. Data warehouse.  
+   B. Data mining.  
+   C. Datamarts.  
+   D. Metadata.  
+   **Answer:** B
+1. Capability of data mining is to build **\_\_** models.  
+   A. retrospective.  
+   B. interrogative.  
+   C. predictive.  
+   D. imperative.  
+   **Answer:** C
+
+1. Discovery of cross-sales opportunities is called **\*\***\_\_**\*\***.  
+   A. segmentation.  
+   B. visualization.  
+   C. correction.  
+   D. association.  
+   **Answer:** D
+
+1. Which of the following is not the other name of Data mining?  
+   A. Exploratory data analysis.  
+   B. Data driven discovery.  
+   C. Deductive learning.  
+   D. Data integration.  
+   **Answer:** D
+
+1. A predictive model makes use of **\_\_**.  
+   A. current data.  
+   B. historical data.  
+   C. both current and historical data.  
+   D. assumptions.  
+   **Answer:** B
+
+1. \***\*\_\_\*\*** maps data into predefined groups.  
+   A. Regression.  
+   B. Time series analysis  
+   C. Prediction.  
+   D. Classification.  
+   **Answer:** D
+
+1. In **\_\_** the groups are not predefined.  
+   A. Association rules.  
+   B. Summarization.  
+   C. Clustering.  
+   D. Prediction.  
+   **Answer:** C
+
+1. **\_\_\_** is the input to KDD.  
+   A. Data.  
+   B. Information.  
+   C. Query.  
+   D. Process.  
+   **Answer:** A
+
+1. The output of KDD is **\_\_\_\_**.  
+   A. Data.  
+   B. Information.  
+   C. Query.  
+   D. Useful information.  
+   **Answer:** D
+
+1. The KDD process consists of **\_\_** steps.  
+   A. three.  
+   B. four.  
+   C. five.  
+   D. six.  
+   **Answer:** C
+
+1. Treating incorrect or missing data is called as **\_\_**.  
+   A. selection.  
+   B. preprocessing.  
+   C. transformation.  
+   D. interpretation.  
+   **Answer:** B
+
+1. Various visualization techniques are used in **\_\_** step of KDD.  
+   A. selection.  
+   B. transformaion.  
+   C. data mining.  
+   D. interpretation.  
+   **Answer:** D
+
+1. Extreme values that occur infrequently are called as **\_\_\_**.  
+   A. outliers.  
+   B. rare values.  
+   C. dimensionality reduction.  
+   D. Inliers  
+   **Answer:** A
+
+1. Incorrect or invalid data is known as **\_\_\_**.  
+   A. changing data.  
+   B. noisy data.  
+   C. outliers.  
+   D. missing data.  
+   **Answer:** B
+
+1. **\_\_** data are noisy and have many missing attribute values.  
+   A. Preprocessed.  
+   B. Cleaned.  
+   C. Real-world.  
+   D. Transformed.  
+   **Answer:** C
+
+1. **\_\_** is used to find the vaguely known data.  
+   A. SQL.  
+   B. KDD.  
+   C. Data mining.  
+   D. Sybase.  
+   **Answer:** C
+
+1. Classification rules are extracted from \***\*\_\_\_\*\***.  
+   A. root node.  
+   B. decision tree.  
+   C. siblings.  
+   D. branches.  
+   **Answer:** B
+
+1. Data that are not of interest to the data mining task is called as \_\_\_\_.  
+   A. missing data.  
+   B. changing data.  
+   C. irrelevant data.  
+   D. noisy data.  
+   **Answer:** C
+
+1. Which of the following is not a desirable feature of any efficient algorithm?  
+   A. to reduce number of input operations.  
+   B. to reduce number of output operations.  
+   C. to be efficient in computing.  
+   D. to have maximal code length.  
+   **Answer:** D
+
+1. All set of items whose support is greater than the user-specified minimum support are called as  
+   A. border set.  
+   B. frequent set.  
+   C. maximal frequent set.  
+   D. lattice.  
+   **Answer:** B
+
+1. OLAP is used to explore the **\_\_** knowledge.  
+   A. shallow.  
+   B. deep.  
+   C. multidimensional.  
+   D. hidden.  
+   **Answer:** C
+
+1. Hidden knowledge can be found by using **\_\_**.  
+   A. searching algorithm.  
+   B. pattern recognition algorithm.  
+   C. searching algorithm.  
+   D. clues.  
+   **Answer:** B
+
+1. The next stage to data selection in KDD process \_\_\_\_.  
+   A. enrichment.  
+   B. coding.  
+   C. cleaning.  
+   D. reporting.  
+   **Answer:** C
+
+1. In KDD and data mining, noise is referred to as **\_\_**.  
+   A. repeated data.  
+   B. complex data.  
+   C. meta data.  
+   D. random errors in database.  
+   **Answer:** D
+
+1. The technique of learning by generalizing from examples is **\_\_**.  
+   A. incremental learning. B. inductive learning.  
+   C. hybrid learning.  
+   D. generalized learning.  
+   **Answer:** B
+
+1. Data mining is used to refer \_\_\_\_ stage in knowledge discovery in database.  
+   A. selection.  
+   B. retrieving.  
+   C. discovery.  
+   D. coding.  
+   **Answer:** C
+
+1. The algorithms that are controlled by human during their execution is **\_\_** algorithm.  
+   A. unsupervised.  
+   B. supervised.  
+   C. batch learning.  
+   D. incremental.  
+   **Answer:** B
+
+1. If a set is a frequent set and no superset of this set is a frequent set, then it is called **\_\_**.  
+   A. maximal frequent set.  
+   B. border set.  
+   C. lattice.  
+   D. infrequent sets.  
+   **Answer:** A
+
+1. **\_\_** training may be used when a clear link between input data sets and target output valuesdoes not exist.  
+   A. Competitive.  
+   B. Perception.  
+   C. Supervised.  
+   D. Unsupervised.  
+   **Answer:** D
+
+1. Web content mining describes the discovery of useful information from the **\_\_\_** contents.  
+   A. text.  
+   B. web.  
+   C. page.  
+   D. level.  
+   **Answer:** B
+
+1. In web mining, **\_\_** is used to find natural groupings of users, pages, etc.  
+   A. clustering.  
+   B. associations.  
+   C. sequential analysis.  
+   D. classification.  
+   **Answer:** A
+
+1. In web mining, **\_\_\_** is used to know which URLs tend to be requested together.  
+   A. clustering.  
+   B. associations.  
+   C. sequential analysis.  
+   D. classification.  
+   **Answer:** B
+
+1. Which of the following is the not a types of clustering?  
+   A. K-means.  
+   B. hierarchical.  
+   C. Partitional.  
+   D. Splitting.  
+   **Answer:** D
+
+1. The **\_\_** is a knowledge that can be found by using pattern recognition algorithm.  
+   A. hidden knowledge.  
+   B. deep.  
+   C. shallow. 24  
+   D. multidimensional.  
+   **Answer:** A
+
+1. **\_\_** is used for discrete target variable.  
+   A. Nominal.  
+   B. Classification.  
+   C. Clustering.  
+   D. Association.  
+   **Answer:** B
