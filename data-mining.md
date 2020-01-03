@@ -827,7 +827,8 @@
    **Answer:** D
 
 1. The technique of learning by generalizing from examples is **\_\_**.  
-   A. incremental learning. B. inductive learning.  
+   A. incremental learning.  
+   B. inductive learning.  
    C. hybrid learning.  
    D. generalized learning.  
    **Answer:** B
