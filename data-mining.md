@@ -30,8 +30,6 @@
 
 1. Variance and standard deviation are measures of data dispersion. :heavy_check_mark:
 
-1. Data mining algorithms must be efficient and scalable in order to effectively extract information from huge amounts of data :heavy_check_mark:
-
 1. A major problem with the mean is its sensitivity to extreme (e.g., outlier) values. :heavy_check_mark:
 
 1. The Table consists of a set of attributes (rows) and usually stores a large set of tuples columns). :x:
