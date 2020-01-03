@@ -134,7 +134,7 @@
 
    **Answer:** A
 
-1. A definition of a concept is-----if it recognizes all the instances of that concept  
+1. A definition of a concept is ----- if it recognizes all the instances of that concept  
    A. Complete  
    B. Consistent  
    C. Constant
@@ -657,9 +657,9 @@
    B. extraction of data  
    C. extraction of information  
    D. extraction of rules  
-   **Answer:** A 4.
+   **Answer:** A
 
-1. \***\*\_\_\_\_\*\***predicts future trends &behaviors, allowing business managers to make proactive,knowledge-driven decisions.  
+1. \_\_\_\_\_ predicts future trends &behaviors, allowing business managers to make proactive,knowledge-driven decisions.  
    A. Data warehouse.  
    B. Data mining.  
    C. Datamarts.  
@@ -672,7 +672,7 @@
    D. imperative.  
    **Answer:** C
 
-1. Discovery of cross-sales opportunities is called **\*\***\_\_**\*\***.  
+1. Discovery of cross-sales opportunities is called \_\_\_.  
    A. segmentation.  
    B. visualization.  
    C. correction.  
@@ -693,7 +693,7 @@
    D. assumptions.  
    **Answer:** B
 
-1. \***\*\_\_\*\*** maps data into predefined groups.  
+1. **\_\_\_** maps data into predefined groups.  
    A. Regression.  
    B. Time series analysis  
    C. Prediction.  
@@ -770,7 +770,7 @@
    D. Sybase.  
    **Answer:** C
 
-1. Classification rules are extracted from \***\*\_\_\_\*\***.  
+1. Classification rules are extracted from **\_\_\_\_**.  
    A. root node.  
    B. decision tree.  
    C. siblings.  
@@ -891,7 +891,7 @@
 1. The **\_\_** is a knowledge that can be found by using pattern recognition algorithm.  
    A. hidden knowledge.  
    B. deep.  
-   C. shallow. 24  
+   C. shallow.  
    D. multidimensional.  
    **Answer:** A
 
