@@ -12,7 +12,7 @@
 
 1. duplicate records requires data normalization :x:
 
-1. incomplete data means that it contains errors and outlier. :heavy_check_mark:
+1. incomplete data means that it contains errors and outlier. :x:
 
 1. in cluster technique, one cluster can hold at most one object. :x:
 
