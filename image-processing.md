@@ -403,5 +403,6 @@
 1. Median filters are effective in the presence of impulse noise.  
    a) True  
    b) False
+
    Answer: a  
    Explanation: Median filters are used to remove impulse noises, also called as salt-and-pepper noise because of its appearance as white and black dots in the image.
