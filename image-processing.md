@@ -449,9 +449,9 @@
    d) \|Gx\| x \|Gy\|
 
 1. For finding horizontal lines we use mask of values  
-   a) [-1 -1 -1;
+   a) **[-1 -1 -1;
    2 2 2;
-   -1 -1 -1]  
+   -1 -1 -1]**  
    b) [2 -1 -1;
    -1 2 -1;
    -1 -1 2]  
@@ -470,7 +470,7 @@
 
 1. For finding lines at angle 45 we use mask of values  
    a) [-1 -1 -1; 2 2 2; -1 -1 -1]  
-   b) [2 -1 -1; -1 2 -1; -1 -1 2]  
+   b) **[2 -1 -1; -1 2 -1; -1 -1 2]**  
    c) [-1 2 -1; -1 2 -1; -1 2 -1]  
    d) [-1 -1 2; -1 2 -1;2 -1 -1]
 
@@ -499,3 +499,39 @@
    b) numbers  
    c) frequencies  
    d) **intensities**
+
+1. ----- filter cannot be implemented using convolution mechanism  
+   a) average  
+   b) **gausian**  
+   c) median  
+   d) disk
+
+1. To remove salt-and-pepper noise witout blurring we use  
+   a) max filter  
+   b) **median filter**  
+   c) min filter  
+   d) smoothing filter
+
+1. Sharpening the images is commonly accomplished by performing a spatial ------- of the image field.  
+   a) Min Filter  
+   b) Smoothing Filter  
+   c) Integration  
+   d) **Differentiation**
+
+1. One of the following filters is nonlinear  
+   a) Gaussian Filter  
+   b) Averaging Filter  
+   c) Laplacian Filter  
+   d) **Median**
+
+1. the sum of all elements inthe mask of the smoothing averaging spatial filtering must be equal to
+   a) m rows  
+   b) n columns  
+   c) n\*m  
+   d) **1**
+
+1. Edge detection in images is commonly accomplished by performing a spatial ------ of the image field  
+   a) Min Filter  
+   b) Smoothing Filter  
+   c) Integration  
+   d) **Differentiation**
