@@ -535,3 +535,144 @@
    b) Smoothing Filter  
    c) Integration  
    d) **Differentiation**
+
+1. For finding vertical lines we use mask of values  
+   a) [-1 -1 -1; 2 2 2; -1 -1 -1]  
+   b) [2 -1 -1; -1 2 -1; -1 -1 2]  
+   c) **[-1 2 -1; -1 2 -1; -1 2 -1]**  
+   d) [-1 -1 2; -1 2 -1;2 -1 -1]
+
+1. Which of the following expression is used to denote spatial domain process?  
+   a) g(x,y)=T[f(x,y)]  
+   b) f(x+y)=T[g(x+y)]  
+   c) g(xy)=T[f(xy)]  
+   d) g(x-y)=T[f(x-y)]
+   Answer: a  
+   Explanation: Spatial domain processes will be denoted by the expression g(x,y)=T[f(x,y)], where f(x,y) is the input image, g(x,y) is the processed image, and T is an operator on f, defined over some neighborhood of (x, y). In addition, T can operate on a set of input images, such as performing the pixel-by-pixel sum of K images for noise reduction.
+1. Which of the following is the primary objective of sharpening of an image?  
+   a) Blurring the image  
+   b) Highlight fine details in the image  
+   c) Increase the brightness of the image  
+   d) Decrease the brightness of the image
+   Answer: b  
+   Explanation: The sharpening of image helps in highlighting the fine details that are present in the image or to enhance the details that are blurred due to some reason like adding noise.
+1. Image sharpening process is used in electronic printing.  
+   a) True  
+   b) False
+   Answer: a  
+   Explanation: The applications of image sharpening is present in various fields like electronic printing, autonomous guidance in military systems, medical imaging and industrial inspection.
+1. In spatial domain, which of the following operation is done on the pixels in sharpening the image?  
+   a) Integration  
+   b) Average  
+   c) Median  
+   d) Differentiation
+   Answer: d  
+   Explanation: We know that, in blurring the image, we perform the average of pixels which can be considered as integration. As sharpening is the opposite process of blurring, logically we can tell that we perform differentiation on the pixels to sharpen the image.
+1. Image differentiation enhances the edges, discontinuities and deemphasizes the pixels with slow varying gray levels.  
+   a) True  
+   b) False
+   Answer: a  
+   Explanation: Fundamentally, the strength of the response of the derivative operative is proportional to the degree of discontinuity in the image. So, we can state that image differentiation enhances the edges, discontinuities and deemphasizes the pixels with slow varying gray levels.
+1. If f(x,y) is an image function of two variables, then the first order derivative of a one dimensional function, f(x) is:  
+   a) f(x+1.-f(x)  
+   b) f(x)-f(x+1.  
+   c) f(x-1.-f(x+1.  
+   d) f(x)+f(x-1.
+   Answer: a  
+   Explanation: The first order derivative of a single dimensional function f(x) is the difference between f(x) and f(x+1..  
+   That is, ∂f/∂x=f(x+1.-f(x).
+1. Isolated point is also called as noise point.  
+   a) True  
+   b) False
+   Answer: a  
+   Explanation: The point which has very high or very low gray level value compared to its neighbours, then that point is called as isolated point or noise point. The noise point of is of one pixel size.
+1. What is the thickness of the edges produced by first order derivatives when compared to that of second order derivatives?  
+   a) Finer  
+   b) Equal  
+   c) Thicker  
+   d) Independent
+   Answer: c  
+   Explanation: We know that, the first order derivative is nonzero along the entire ramp while the second order is zero along the ramp. So, we can conclude that the first order derivatives produce thicker edges and the second order derivatives produce much finer edges.
+1. First order derivative can enhance the fine detail in the image compared to that of second order derivative.  
+   a) True  
+   b) False
+   Answer: b  
+   Explanation: The response at and around the noise point is much stronger for the second order derivative than for the first order derivative. So, we can state that the second order derivative is better to enhance the fine details in the image including noise when compared to that of first order derivative.
+1. Which of the following derivatives produce a double response at step changes in gray level?  
+   a) First order derivative  
+   b) Third order derivative  
+   c) Second order derivative  
+   d) First and second order derivatives
+   Answer: c  
+   Explanation: Second order derivatives produce a double line response for the step changes in the gray level. We also note of second-order derivatives that, for similar changes in gray-level values in an image, their response is stronger to a line than to a step, and to a point than to a line.
+1. The objective of sharpening spatial filters is/are to \***\*\_\*\***  
+   a) Highlight fine detail in an image  
+   b) Enhance detail that has been blurred because of some error  
+   c) Enhance detail that has been blurred because of some natural effect of some method of image acquisition  
+   d) All of the mentioned
+   Answer: d  
+   Explanation: Highlighting the fine detail in an image or Enhancing detail that has been blurred because of some error or some natural effect of some method of image acquisition, is the principal objective of sharpening spatial filters.
+1. Sharpening is analogous to which of the following operations?  
+   a) To spatial integration  
+   b) To spatial differentiation  
+   c) All of the mentioned  
+   d) None of the mentioned
+   Answer: b  
+   Explanation: Smoothing is analogous to integration and so, sharpening to spatial differentiation.
+1. What kind of relation can be obtained between first order derivative and second order derivative of an image having a on the basis of edge productions that shows a transition like a ramp of constant slope?  
+   a) First order derivative produces thick edge while second order produces a very fine edge  
+   b) Second order derivative produces thick edge while first order produces a very fine edge  
+   c) Both first and second order produces thick edge  
+   d) Both first and second order produces a very fine edge
+   Answer: a  
+   Explanation: the first order derivative remains nonzero along the entire ramp of constant slope, while the second order derivative remain nonzero only at onset and end of such ramps.  
+   If an edge in an image shows transition like the ramp of constant slope, the first order and second order derivative values shows the production of thick and finer edge respectively.
+1. What kind of relation can be obtained between first order derivative and second order derivative of an image on the response obtained by encountering an isolated noise point in the image?  
+   a) First order derivative has a stronger response than a second order  
+   b) Second order derivative has a stronger response than a first order  
+   c) Both enhances the same and so the response is same for both first and second order derivative  
+   d) None of the mentioned
+   Answer: b  
+   Explanation: This is because a second order derivative is more aggressive toward enhancing sharp changes than a first order.
+1. How can Sharpening be achieved?  
+   a) Pixel averaging  
+   b) Slicing  
+   c) Correlation  
+   d) None of the mentioned
+   Answer: d  
+   Explanation: Sharpening is achieved using Spatial Differentiation.
+1. What does Image Differentiation enhance?  
+   a) Edges  
+   b) Pixel Density  
+   c) Contours  
+   d) None of the mentioned
+   Answer: a  
+   Explanation: Image Differentiation enhances Edges and other discontinuities.
+1. What is the Second Derivative of Image Sharpening called?  
+   a) Gaussian  
+   b) Laplacian  
+   c) Canny  
+   d) None of the mentioned
+   Answer: b  
+   Explanation: It is also called Laplacian.
+1. For a function f(x,y), the gradient of ‘f’ at coordinates (x,y) is defined as a \***\*\_\*\***  
+   a) 3-D row vector  
+   b) 3-D column vector  
+   c) 2-D row vector  
+   d) 2-D column vector
+   Answer: d  
+   Explanation: The gradient is a 2-D column vector.
+1. Which of the following occurs in Unsharp Masking?  
+   a) Blurring original image  
+   b) Adding a mask to original image  
+   c) Subtracting blurred image from original  
+   d) All of the mentioned
+   Answer: d  
+   Explanation: In Unsharp Masking, all of the above occurs in the order: Blurring, Subtracting the blurred image and then Adding the mask.
+1. Which of the following is a second-order derivative operator?  
+   a) Histogram  
+   b) Laplacian  
+   c) Gaussian  
+   d) None of the mentioned
+   Answer: b  
+   Explanation: Laplacian is a second-order derivative operator.
