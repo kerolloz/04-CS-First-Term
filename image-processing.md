@@ -859,3 +859,111 @@
 
    answer: c  
    Explanation: Histogram is the basis for numerous spatial domain processing techniques.
+
+1. What is Histogram Equalisation also called as?  
+   a) Histogram Matching  
+   b) Image Enhancement  
+   c) Histogram linearisation  
+   d) None of the Mentioned
+
+   Answer: c  
+   Explanation: Histogram Linearisation is also known as Histogram Equalisation.
+
+1. Histogram Equalisation is mainly used for **\*\***\_\_**\*\***  
+   a) Image enhancement  
+   b) Blurring  
+   c) Contrast adjustment  
+   d) None of the Mentioned
+
+   Answer: a  
+   Explanation: It is mainly used for Enhancement of usually dark images.
+
+1. The output of a smoothing, linear spatial filtering is a \***\*\_\_\*\*** of the pixels contained in the neighbourhood of the filter mask.  
+   a) Sum  
+   b) Product  
+   c) Average  
+   d) Dot Product
+
+   Answer: c  
+   Explanation: Smoothing is simply the average of the pixels contained in the neighbourhood.
+
+1. Averaging filters is also known as \***\*\_\_\*\*** filter.  
+   a) Low pass  
+   b) High pass  
+   c) Band pass  
+   d) None of the Mentioned
+
+   Answer: a  
+   Explanation: Averaging filters is also known as Low pass filters.
+
+1. What is the undesirable side effects of Averaging filters?  
+   a) No side effects  
+   b) Blurred image  
+   c) Blurred edges  
+   d) Loss of sharp transitions
+
+   Answer: c  
+   Explanation: Blue edges is the undesirable side effect of Averaging filters.
+
+1. Which term is used to indicate that pixels are multiplied by different coefficients?  
+   a) Weighted average  
+   b) Squared average  
+   c) Spatial average  
+   d) None of the Mentioned
+
+   Answer: a  
+   Explanation: It is called weighted average since more importance(weight) is given to some pixels.
+
+1. Impulse noise in Order-statistic filter is also called as **\*\***\_**\*\***  
+   a) Median noise  
+   b) Bilinear noise  
+   c) Salt and pepper noise  
+   d) None of the Mentioned
+
+   Answer: c  
+   Explanation: It is called salt-and-pepper noise because of its appearance as white and black dots superimposed on an image.
+
+1. Best example for a Order-statistic filter is **\*\*\*\***\_\_**\*\*\*\***  
+   a) Impulse filter  
+   b) Averaging filter  
+   c) Median filter  
+   d) None of the Mentioned
+
+   Answer: c  
+   Explanation: Median filter is the best known Order-statistic filter.
+
+1. Which of the following is best suited for salt-and-pepper noise elimination?  
+   a) Average filter  
+   b) Box filter  
+   c) Max filter  
+   d) Median filter
+
+   Answer: d  
+   Explanation: Median filter is better suited than average filter for salt-and-pepper noise elimination.
+
+1. Smoothing filter is used for which of the following work(s)?  
+   a) Blurring  
+   b) Noise reduction  
+   c) All of the mentioned  
+   d) None of the mentioned
+
+   Answer: c  
+   Explanation: Smoothing filter is used for blurring and noise reduction.
+
+1. Which of the following filter(s) results in a value as average of pixels in the neighborhood of filter mask.  
+   a) Smoothing linear spatial filter  
+   b) Averaging filter  
+   c) Lowpass filter  
+   d) All of the mentioned
+
+   Answer: d  
+   Explanation: The output as an average of pixels in the neighborhood of filter mask is simply the output of the smoothing linear spatial filter also known as averaging filter and lowpass filter.
+
+1. What is/are the resultant image of a smoothing filter?  
+   a) Image with high sharp transitions in gray levels  
+   b) Image with reduced sharp transitions in gray levels  
+   c) All of the mentioned  
+   d) None of the mentioned
+
+   Answer: b  
+   Explanation: Random noise has sharp transitions in gray levels and smoothing filters does noise reduction.
