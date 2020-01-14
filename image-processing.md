@@ -1250,3 +1250,34 @@
 
    Answer: a  
    Explanation: Unlike Ideal lowpass filter, an Ideal highpass filter attenuates the low-frequency components and so gives 0 for D(u, v) ≤ D0 and 1 for D(u, v) >D0.
+
+1. The domain that refers to image plane itself and the domain that refers to Fourier transform of an image is/are :  
+   a) Spatial domain in both  
+   b) Frequency domain in both  
+   c) Spatial domain and Frequency domain respectively  
+   d) Frequency domain and Spatial domain respectively
+
+   Answer: c  
+   Explanation: Spatial domain itself refers to the image plane, and approaches in this category are based on direct manipulation of pixels in an image.  
+   Techniques based on Frequency domain processing are based on modifying the Fourier transform of an image.
+
+1. What is the technique for a gray-level transformation function called, if the transformation would be to produce an image of higher contrast than the original by darkening the levels below some gray-level m and brightening the levels above m in the original image.  
+   a) Contouring  
+   b) Contrast stretching  
+   c) Mask processing  
+   d) Point processing
+
+   Answer: b  
+   Explanation: For a gray-level transformation function “s=T(r)”, where r and s are the gray-level of f(x, y) (input image) and g(x, y) (output image) respectively at any point (x, y).  
+   Then the technique, contrast stretching compresses the value of r below m by transformation function into a narrow range of s, towards black and brightens the value of r above m.
+
+1. What is the sum of all components of a normalized histogram?  
+   a) 1  
+   b) -1  
+   c) 0  
+   d) None of the mentioned
+
+   Answer: a  
+   Explanation: A normalized histogram. p(rk) = nk / n  
+   Where, n is total number of pixels in image, rk the kth gray level and nk total pixels with gray level rk.  
+   Here, p(rk) gives the probability of occurrence of rk.
