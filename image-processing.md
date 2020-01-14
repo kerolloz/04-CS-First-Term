@@ -310,3 +310,95 @@
 
    Answer: c  
    Explanation: Contrast is the measure of the difference is intensity between the highest and the lowest intensity levels in an image.
+
+1. Image processing approaches operating directly on pixels of input image work directly in \***\*\_\_\*\***  
+   a) Transform domain  
+   b) Spatial domain  
+   c) Inverse transformation  
+   d) None of the Mentioned
+
+   Answer: b  
+   Explanation: Operations directly on pixels of input image work directly in Spatial Domain.
+
+1. Noise reduction is obtained by blurring the image using smoothing filter.  
+   a) True  
+   b) False
+
+   Answer: a  
+   Explanation: Noise reduction is obtained by blurring the image using smoothing filter. Blurring is used in pre-processing steps, such as removal of small details from an image prior to object extraction and, bridging of small gaps in lines or curves.
+
+1. What is the output of a smoothing, linear spatial filter?  
+   a) Median of pixels  
+   b) Maximum of pixels  
+   c) Minimum of pixels  
+   d) Average of pixels
+
+   Answer: d  
+   Explanation: The output or response of a smoothing, linear spatial filter is simply the average of the pixels contained in the neighbourhood of the filter mask.
+
+1. Smoothing linear filter is also known as median filter.  
+   a) True  
+   b) False
+
+   Answer: b  
+   Explanation: Since the smoothing spatial filter performs the average of the pixels, it is also called as averaging filter.
+
+1. Which of the following in an image can be removed by using smoothing filter?  
+   a) Smooth transitions of gray levels  
+   b) Smooth transitions of brightness levels  
+   c) Sharp transitions of gray levels  
+   d) Sharp transitions of brightness levels
+
+   Answer: c  
+   Explanation: Smoothing filter replaces the value of every pixel in an image by the average value of the gray levels. So, this helps in removing the sharp transitions in the gray levels between the pixels. This is done because, random noise typically consists of sharp transitions in gray levels.
+
+1. Which of the following is the disadvantage of using smoothing filter?  
+   a) Blur edges  
+   b) Blur inner pixels  
+   c) Remove sharp transitions  
+   d) Sharp edges
+
+   Answer: a  
+   Explanation: Edges, which almost always are desirable features of an image, also are characterized by sharp transitions in gray level. So, averaging filters have an undesirable side effect that they blur these edges.
+
+1. The mask shown in the figure below belongs to which type of filter?  
+   a) Sharpening spatial filter  
+   b) Median filter  
+   c) Sharpening frequency filter  
+   d) Smoothing spatial filter
+
+   Answer: d  
+   Explanation: This is a smoothing spatial filter. This mask yields a so called weighted average, which means that different pixels are multiplied with different coefficient values. This helps in giving much importance to the some pixels at the expense of others.
+
+1. The mask shown in the figure below belongs to which type of filter?  
+   a) Sharpening spatial filter  
+   b) Median filter  
+   c) Smoothing spatial filter  
+   d) Sharpening frequency filter
+
+   Answer: c  
+   Explanation: The mask shown in the figure represents a 3×3 smoothing filter. Use of this filter yields the standard average of the pixels under the mask.
+
+1. If the size of the averaging filter used to smooth the original image to first image is 9, then what would be the size of the averaging filter used in smoothing the same original picture to second in second image?  
+   a) 3  
+   b) 5  
+   c) 9  
+   d) 15
+
+   Answer: d  
+   Explanation: We know that, as the size of the filter used in smoothening the original image that is averaging filter increases then the blurring of the image. Since the second image is more blurred than the first image, the window size should be more than 9.
+
+1. Median filter belongs to which category of filters?  
+   a) Linear spatial filter  
+   b) Frequency domain filter  
+   c) Order static filter  
+   d) Sharpening filter
+
+   Answer: c  
+   Explanation: The median filter belongs to order static filters, which, as the name implies, replaces the value of the pixel by the median of the gray levels that are present in the neighbourhood of the pixels.
+
+1. Median filters are effective in the presence of impulse noise.  
+   a) True  
+   b) False
+   Answer: a  
+   Explanation: Median filters are used to remove impulse noises, also called as salt-and-pepper noise because of its appearance as white and black dots in the image.
