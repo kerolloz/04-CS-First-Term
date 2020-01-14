@@ -605,7 +605,7 @@
    d) First and second order derivatives
    Answer: c  
    Explanation: Second order derivatives produce a double line response for the step changes in the gray level. We also note of second-order derivatives that, for similar changes in gray-level values in an image, their response is stronger to a line than to a step, and to a point than to a line.
-1. The objective of sharpening spatial filters is/are to \***\*\_\*\***  
+1. The objective of sharpening spatial filters is/are to ------  
    a) Highlight fine detail in an image  
    b) Enhance detail that has been blurred because of some error  
    c) Enhance detail that has been blurred because of some natural effect of some method of image acquisition  
@@ -655,7 +655,7 @@
    d) None of the mentioned
    Answer: b  
    Explanation: It is also called Laplacian.
-1. For a function f(x,y), the gradient of ‘f’ at coordinates (x,y) is defined as a \***\*\_\*\***  
+1. For a function f(x,y), the gradient of ‘f’ at coordinates (x,y) is defined as a ------  
    a) 3-D row vector  
    b) 3-D column vector  
    c) 2-D row vector  
