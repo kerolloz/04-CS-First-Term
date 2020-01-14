@@ -302,7 +302,7 @@
    Answer: a  
    Explanation: The section of the real plane spanned by the coordinates of an image is called the Spacial Domain, with the x and y coordinates referred to as Spacial coordinates.
 
-1. The difference is intensity between the highest and the lowest intensity levels in an image is **\_\_\_\_**  
+1. The difference between the highest and the lowest intensity levels in an image is **\_\_\_\_**  
    a) Noise  
    b) Saturation  
    c) Contrast  
