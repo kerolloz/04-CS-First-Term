@@ -1147,8 +1147,8 @@
    Explanation: the lowpass filter has two different characteristics: one is a dominant component at origin and other one is a concentric, circular components about the center component.
 
 1. Which of the following defines the expression for BLPF H(u, v) of order n, where D(u, v) is the distance from point (u, v), D0 is the distance defining cutoff frequency?  
-   a)  
-   b)  
+   a) ![img](https://www.sanfoundry.com/wp-content/uploads/2017/06/digital-image-processing-questions-answers-frequencydomain-filters-smoothing-q12@2x.png)  
+   b) ![img](https://www.sanfoundry.com/wp-content/uploads/2017/06/digital-image-processing-questions-answers-frequencydomain-filters-smoothing-q12a@2x.png)  
    c) All of the mentioned  
    d) None of the mentioned
 
@@ -1156,8 +1156,8 @@
    Explanation: BLPF is the Butterworth lowpass filter and is defined as:
 
 1. Which of the following defines the expression for ILPF H(u, v) of order n, where D(u, v) is the distance from point (u, v), D0 is the distance defining cutoff frequency?  
-   a)  
-   b)  
+   a) ![img](https://www.sanfoundry.com/wp-content/uploads/2017/06/digital-image-processing-questions-answers-frequencydomain-filters-smoothing-q12@2x.png)  
+   b) ![img](https://www.sanfoundry.com/wp-content/uploads/2017/06/digital-image-processing-questions-answers-frequencydomain-filters-smoothing-q12a@2x.png)  
    c) All of the mentioned  
    d) None of the mentioned
 
