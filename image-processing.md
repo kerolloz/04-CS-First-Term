@@ -396,13 +396,3 @@
    b) Frequency domain filter  
    c) Order static filter  
    d) Sharpening filter
-
-   Answer: c  
-   Explanation: The median filter belongs to order static filters, which, as the name implies, replaces the value of the pixel by the median of the gray levels that are present in the neighbourhood of the pixels.
-
-1. Median filters are effective in the presence of impulse noise.  
-   a) True  
-   b) False
-
-   Answer: a  
-   Explanation: Median filters are used to remove impulse noises, also called as salt-and-pepper noise because of its appearance as white and black dots in the image.
