@@ -418,55 +418,49 @@
 
 1. **Convolution in Spatial Domain** Is _Multiplication_ in **Frequency Domain**.
 
-1. Sudden changes in intensity produces peak in
+1. Sudden changes in intensity produces peak in  
+   a) **first derivative**  
+   b) second derivative  
+   c) third derivative  
+   d) Both A and B
 
-   1. **first derivative**
-   1. second derivative
-   1. third derivative
-   1. Both A and B
+1. Gaussian noise is referred to as  
+   a) red noise  
+   b) black noise  
+   c) white noise  
+   d) **normal noise**
 
-1. Gaussian noise is referred to as
+1. Digitizing image intensity amplitude is called  
+   a) sampling  
+   b) **quantization**  
+   c) framing  
+   d) Both A and B
 
-   1. red noise
-   1. black noise
-   1. white noise
-   1. **normal noise**
+1. For line detection we use mask that is  
+   a) Gaussian  
+   b) **laplacian**  
+   c) ideal  
+   d) butterworth
 
-1. Digitizing image intensity amplitude is called
+1. Gradient computation equation is  
+   a) **\|Gx\| + \|Gy\|**  
+   b) \|Gx\| - \|Gy\|  
+   c) \|Gx\| / \|Gy\|  
+   d) \|Gx\| x \|Gy\|
 
-   1. sampling
-   1. **quantization**
-   1. framing
-   1. Both A and B
-
-1. For line detection we use mask that is
-
-   1. Gaussian
-   1. **laplacian**
-   1. ideal
-   1. butterworth
-
-1. Gradient computation equation is
-
-   1. **|Gx|+|Gy|**
-   1. |Gx|-|Gy|
-   1. |Gx|/|Gy|
-   1. |Gx|x|Gy|
-
-1. For finding horizontal lines we use mask of values
-
-   1. [-1 -1 -1;
-      2 2 2;
-      -1 -1 -1]
-   1. [2 -1 -1;
-      -1 2 -1;
-      -1 -1 2]
-   1. [-1 2 -1;
-      -1 2 -1;
-      -1 2 -1]
-   1. [-1 -1 2;
-      -1 2 -1;
-      2 -1 -1]
+1. For finding horizontal lines we use mask of values  
+   a) [-1 -1 -1;
+   2 2 2;
+   -1 -1 -1]  
+   b) [2 -1 -1;
+   -1 2 -1;
+   -1 -1 2]  
+   c) [-1 2 -1;
+   -1 2 -1;
+   -1 2 -1]  
+   d) [-1 -1 2;
+   -1 2 -1;
+   2 -1 -1]
 
 1. To avoid negative values taking absolute values in lapacian image doubles **thickness of lines**.
 
@@ -474,39 +468,34 @@
 
 1. Filter that replaces pixel value with medians of intensity levels is **median filter**
 
-1. For finding lines at angle 45 we use mask of values
+1. For finding lines at angle 45 we use mask of values  
+   a) [-1 -1 -1; 2 2 2; -1 -1 -1]  
+   b) [2 -1 -1; -1 2 -1; -1 -1 2]  
+   c) [-1 2 -1; -1 2 -1; -1 2 -1]  
+   d) [-1 -1 2; -1 2 -1;2 -1 -1]
 
-   1. [-1 -1 -1; 2 2 2; -1 -1 -1]
-   1. [2 -1 -1; -1 2 -1; -1 -1 2]
-   1. [-1 2 -1; -1 2 -1; -1 2 -1]
-   1. [-1 -1 2; -1 2 -1;2 -1 -1]
+1. Second derivative approximation says that values along ramp must be  
+   a) nonzero  
+   b) **zero**  
+   c) positive  
+   d) negative
 
-1. Second derivative approximation says that values along ramp must be
+1. High pass filters promotes  
+   a) low intensity components  
+   b) mid intensity components  
+   c) **high intensity components**  
+   d) all components
 
-   1. nonzero
-   1. **zero**
-   1. positive
-   1. negative
-
-1. High pass filters promotes
-
-   low intensity components  
-   mid intensity components  
-   **high intensity components**  
-   all components
-
-1. Gradient magnitude images are more useful in
-
-   point detection  
-   line detection  
-   area detection  
-   **edge detection**
+1. Gradient magnitude images are more useful in  
+   a) point detection  
+   b) line detection  
+   c) area detection  
+   d) **edge detection**
 
 1. Image having gradient pixels is called **gradient image**
 
-1. Digital images are displayed as a discrete set if
-
-   values  
-   numbers  
-   frequencies  
-   **intensities**
+1. Digital images are displayed as a discrete set if  
+   a) values  
+   b) numbers  
+   c) frequencies  
+   d) **intensities**
