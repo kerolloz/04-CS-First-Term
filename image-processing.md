@@ -47,16 +47,19 @@
    B. matrix  
    C. frames  
    **D. noise**
+
 1. Reducing the data required referred to  
    A. image enhancement  
    **B. image compression**  
    C. image contrast  
    D. image equalization
+
 1. Digitizing the coordinate values is called  
    A. radiance  
    B. illuminance  
    **C. sampling**  
    D. quantization
+
 1. Black and white images have only  
    **A. 2 levels**  
    B. 3 levels  
