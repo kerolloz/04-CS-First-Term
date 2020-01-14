@@ -1171,3 +1171,82 @@
 
    Answer: b  
    Explanation: ILPF has sharp discontinuity and BLPF doesn’t, so BLPF establishes a clear cutoff b/w passed and filtered frequencies.
+
+1. In frequency domain terminology, which of the following is defined as “obtaining a highpass filtered image by subtracting from the given image a lowpass filtered version of itself”?  
+   a) Emphasis filtering  
+   b) Unsharp masking  
+   c) Butterworth filtering  
+   d) None of the mentioned
+
+   Answer: b  
+   Explanation: In frequency domain terminology unsharp masking is defined as “obtaining a highpass filtered image by subtracting from the given image a lowpass filtered version of itself”.
+
+1. Which of the following is/ are a generalized form of unsharp masking?  
+   a) Lowpass filtering  
+   b) High-boost filtering  
+   c) Emphasis filtering  
+   d) All of the mentioned
+
+   Answer: b  
+   Explanation: Unsharp masking is defined as “obtaining a highpass filtered image by subtracting from the given image a lowpass filtered version of itself” while high-boost filtering generalizes it by multiplying the input image by a constant, say A≥1.
+
+1. Which of the following fact is true for a image?  
+   a) An image is the addition of illumination and reflectance component  
+   b) An image is the subtraction of illumination component from reflectance component  
+   c) An image is the subtraction of reflectance component from illumination component  
+   d) An image is the multiplication of illumination and reflectance component
+
+   Answer: d  
+   Explanation: An image is expressed as the multiplication of illumination and reflectance component.
+
+1. If an image is expressed as the multiplication of illumination and reflectance component i.e. f(x, y)= i(x, y) r(x, y), then Validate the statement “We can directly use the equation f(x, y)= i(x, y) r(x, y) to operate separately on the frequency component of illumination and reflectance” .  
+   a) True  
+   b) False
+
+   Answer: b  
+   Explanation: For an image is expressed as the multiplication of illumination and reflectance component i.e. f(x, y)= i(x, y) \* r(x, y), the equation can’t be used directly to operate separately on the frequency component of illumination and reflectance because the Fourier transform of the product of two function is not separable.
+
+1. In Homomorphic filtering which of the following operations is used to convert input image to discrete Fourier transformed function?  
+   a) Logarithmic operation  
+   b) Exponential operation  
+   c) Negative transformation  
+   d) None of the mentioned
+
+   Answer: a  
+   Explanation: For an image is expressed as the multiplication of illumination and reflectance component i.e. f(x, y) = i(x, y) \* r(x, y), the equation can’t be used directly to operate separately on the frequency component of illumination and reflectance because the Fourier transform of the product of two function is not separable. So, the logarithmic operation is used.I{z(x,y)}=I{ln⁡(f(x,y)) }=I{ln⁡(i(x,y)) }+I{ln⁡(r(x,y))}.
+
+1. A class of system that achieves the separation of illumination and reflectance component of an image is termed as **\_\_\_\_**  
+   a) Base class system  
+   b) Homomorphic system  
+   c) Base separation system  
+   d) All of the mentioned
+
+   Answer: b  
+   Explanation: Homomorphic system is a class of system that achieves the separation of illumination and reflectance component of an image.
+
+1. The edges and other abrupt changes in gray-level of an image are associated with\***\*\_\*\***  
+   a) High frequency components  
+   b) Low frequency components  
+   c) Edges with high frequency and other abrupt changes in gray-level with low frequency components  
+   d) Edges with low frequency and other abrupt changes in gray-level with high frequency components
+
+   Answer: a  
+   Explanation: High frequency components are related with the edges and other abrupt changes in gray-level of an image.
+
+1. The Image sharpening in frequency domain can be achieved by which of the following method(s)?  
+   a) Attenuating the high frequency components  
+   b) Attenuating the low-frequency components  
+   c) All of the mentioned  
+   d) None of the mentioned
+
+   Answer: b  
+   Explanation: The Image sharpening in frequency domain is achieved by attenuating the low-frequency components without disturbing the high-frequency components.
+
+1. If D0 is the cutoff distance measured from origin of frequency rectangle and D(u, v) is the distance from point(u, v). Then what value does an Ideal Highpass filter will give if D(u, v) ≤ D0 andifD(u, v) >D0?  
+   a) 0 and 1 respectively  
+   b) 1 and 0 respectively  
+   c) 1 in both case  
+   d) 0 in both case
+
+   Answer: a  
+   Explanation: Unlike Ideal lowpass filter, an Ideal highpass filter attenuates the low-frequency components and so gives 0 for D(u, v) ≤ D0 and 1 for D(u, v) >D0.
