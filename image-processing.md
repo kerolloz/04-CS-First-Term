@@ -967,3 +967,109 @@
 
    Answer: b  
    Explanation: Random noise has sharp transitions in gray levels and smoothing filters does noise reduction.
+
+1. At which of the following scenarios averaging filters is/are used?
+   a) In the reduction of irrelevant details in an image
+   b) For smoothing of false contours
+   c) For noise reductions
+   d) All of the mentioned
+
+   Answer: d
+   Explanation: Averaging filter or smoothing linear spatial filter is used: for noise reduction by reducing the sharp transitions in gray level, for smoothing false contours that arises because of use of insufficient number of gray values and for reduction of irrelevant data i.e. the pixels regions that are small in comparison of filter mask
+
+1. Is it true or false that “the original pixel value is included while computing the median using gray-levels in the neighborhood of the original pixel in median filter case”?
+   a) True
+   b) False
+
+   Answer: a
+   Explanation: A median filter the pixel value is replaced by median of the gray-level in the neighborhood of that pixel and also the original pixel value is included while computing the median.
+
+1. Two filters of similar size are used for smoothing image having impulse noise. One is median filter while the other is a linear spatial filter. Which would the blurring effect of both?
+   a) Median filter effects in considerably less blurring than the linear spatial filters
+   b) Median filter effects in considerably more blurring than the linear spatial filters
+   c) Both have the same blurring effect
+   d) All of the mentioned
+
+   Answer: a
+   Explanation: For impulse noise, median filter is much effective for noise reduction and causes considerably less blurring than the linear spatial filters.
+
+1. An image contains noise having appearance as black and white dots superimposed on the image. Which of the following noise(s) has the same appearance?
+   a) Salt-and-pepper noise
+   b) Gaussian noise
+   c) All of the mentioned
+   d) None of the mentioned
+
+   Answer: c
+   Explanation: An impulse noise has an appearance as black and white dots superimposed on the image. This is also known as Salt-and-pepper noise.
+
+1. While performing the median filtering, suppose a 3\*3 neighborhood has value (10, 20, 20, 20, 15, 20, 20, 25, 100), then what is the median value to be given to the pixel under filter?
+   a) 15
+   b) 20
+   c) 100
+   d) 25
+
+   Answer: b
+   Explanation: The values are first sorted and so turns out to (10, 15, 20, 20, 20, 20, 20, 25, and 100). For a 3\*3 neighborhood the 5th largest value is the median, and so is 20.
+
+1. Which of the following fact(s) is/are true for the relationship between low frequency component of Fourier transform and the rate of change of gray levels?
+   a) Moving away from the origin of transform the low frequency corresponds to smooth gray level variation
+   b) Moving away from the origin of transform the low frequencies corresponds to abrupt change in gray level
+   c) All of the mentioned
+   d) None of the mentioned
+
+   Answer: c
+   Explanation: Moving away from the origin of transform the low frequency corresponds to the slowly varying components in an image. Moving further away from origin the higher frequencies corresponds to faster gray level changes.
+
+1. Which of the following fact(s) is/are true for the relationship between high frequency component of Fourier transform and the rate of change of gray levels?
+   a) Moving away from the origin of transform the high frequency corresponds to smooth gray level variation
+   b) Moving away from the origin of transform the higher frequencies corresponds to abrupt change in gray level
+   c) All of the mentioned
+   d) None of the mentioned
+
+   Answer: b
+   Explanation: Moving away from the origin of transform the low frequency corresponds to the slowly varying components in an image. Moving further away from origin the higher frequencies corresponds to faster gray level changes.
+
+1. To set the average value of an image zero, which of the following term would be set 0 in the frequency domain and the inverse transformation is done, where F(u, v) is Fourier transformed function of f(x, y)?
+   a) F(0, 0)
+   b) F(0, 1)
+   c) F(1, 0)
+   d) None of the mentioned
+
+   Answer: a
+   Explanation: For an image f(x, y), the Fourier transform at origin of an image, F(0, 0), is equal to the average value of the image.
+
+1. Which of the following filter(s) attenuates high frequency while passing low frequencies of an image?
+   a) Unsharp mask filter
+   b) Lowpass filter
+   c) Zero-phase-shift filter
+   d) All of the mentioned
+
+   Answer: b
+   Explanation: A lowpass filter attenuates high frequency while passing low frequencies.
+
+1. Which of the following filter(s) attenuates low frequency while passing high frequencies of an image?
+   a) Unsharp mask filter
+   b) Highpass filter
+   c) Zero-phase-shift filter
+   d) All of the mentioned
+
+   Answer: b
+   Explanation: A highpass filter attenuates low frequency while passing high frequencies.
+
+1. Which of the following filter have a less sharp detail than the original image because of attenuation of high frequencies?
+   a) Highpass filter
+   b) Lowpass filter
+   c) Zero-phase-shift filter
+   d) None of the mentioned
+
+   Answer: b
+   Explanation: A lowpass filter attenuates high so the image has less sharp details.
+
+1. The feature(s) of a highpass filtered image is/are \***\*\_\*\***
+   a) Have less gray-level variation in smooth areas
+   b) Emphasized transitional gray-level details
+   c) An overall sharper image
+   d) All of the mentioned
+
+   Answer: d
+   Explanation: A highpass filter attenuates low frequency so have less gray-level variation in smooth areas, and allows high frequencies so have emphasized transitional gray-level details, resulting in a sharper image.
