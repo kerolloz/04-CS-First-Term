@@ -788,3 +788,74 @@
 
    answer: a  
    Explanation: The histogram of a digital image with gray levels in the range [0, L-1] is a discrete function h(rk )=nk, where rk is the kth gray level and nkis the number of pixels in the image having gray level rk.
+
+1. How is the expression represented for the normalized histogram?  
+   a) p(r_k )=n_k  
+   b) p(r_k )=n_k/n  
+   c) p(r_k)=nn_k  
+   d) p(r_k )=n/n_k
+
+   answer: b  
+   Explanation: It is common practice to normalize a histogram by dividing each of its values by the total number of pixels in the image, denoted by n. Thus, a normalized histogram is given by p(rk )=nk/n, for k=0,1,2…..L-1. Loosely speaking, p(rk ) gives an estimate of the probability of occurrence of gray-level rk. Note that the sum of all components of a normalized histogram is equal to 1.
+
+1. Which of the following conditions does the T(r) must satisfy?  
+   a) T(r) is double-valued and monotonically decreasing in the interval 0≤r≤1; and  
+   0≤T(r)≤1 for 0≤r≤1  
+   b) T(r) is double-valued and monotonically increasing in the interval 0≤r≤1; and  
+   0≤T(r)≤1 for 0≤r≤1  
+   c) T(r) is single-valued and monotonically decreasing in the interval 0≤r≤1; and  
+   0≤T(r)≤1 for 0≤r≤1  
+   d) T(r) is single-valued and monotonically increasing in the interval 0≤r≤1; and  
+   0≤T(r)≤1 for 0≤r≤1
+
+   answer: d  
+   Explanation: For any r satisfying the aforementioned conditions, we focus attention on transformations of the form  
+   s=T(r) For 0≤r≤1  
+   That produces a level s for every pixel value r in the original image.  
+   For reasons that will become obvious shortly, we assume that the transformation function T(r) satisfies the following conditions:  
+   T(r) is single-valued and monotonically increasing in the interval 0≤r≤1; and  
+   0≤T(r)≤1 for 0≤r≤1.
+
+1. The inverse transformation from s back to r is denoted as:  
+   a) s=T-1(r) for 0≤s≤1  
+   b) r=T-1(s) for 0≤r≤1  
+   c) r=T-1(s) for 0≤s≤1  
+   d) r=T-1(s) for 0≥s≥1
+
+   answer: c  
+   Explanation: The inverse transformation from s back to r is denoted by:  
+   r=T-1(s) for 0≤s≤1.
+
+1. Histogram equalization or Histogram linearization is represented by of the following equation:  
+   a) sk =∑k j =1 nj/n k=0,1,2,……,L-1  
+   b) sk =∑k j =0 nj/n k=0,1,2,……,L-1  
+   c) sk =∑k j =0 n/nj k=0,1,2,……,L-1  
+   d) sk =∑k j =n nj/n k=0,1,2,……,L-1
+
+   answer: b  
+   Explanation: A plot of pk\_ (rk) versus r_k is called a histogram .The transformation (mapping) given in sk =∑k j =0)k nj/n k=0,1,2,……,L-1 is called histogram equalization or histogram linearization.
+
+1. Histograms are the basis for numerous spatial domain processing techniques.  
+   a) True  
+   b) False
+
+   answer: a  
+   Explanation: Histograms are the basis for numerous spatial domain processing techniques. Histogram manipulation can be used effectively for image enhancement.
+
+1. In a dark image, the components of histogram are concentrated on which side of the grey scale?  
+   a) High  
+   b) Medium  
+   c) Low  
+   d) Evenly distributed
+
+   answer: c  
+   Explanation: We know that in the dark image, the components of histogram are concentrated mostly on the low i.e., dark side of the grey scale. Similarly, the components of histogram of the bright image are biased towards the high side of the grey scale.
+
+1. What is the basis for numerous spatial domain processing techniques?  
+   a) Transformations  
+   b) Scaling  
+   c) Histogram  
+   d) None of the Mentioned
+
+   answer: c  
+   Explanation: Histogram is the basis for numerous spatial domain processing techniques.
