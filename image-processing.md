@@ -66,40 +66,40 @@
    C. 4 levels  
    D. 5 levels
 
-1. A continuous image is digitised at **\_\_** points.  
+1. A continuous image is digitised at ---------- points.  
    a) random  
    b) vertex  
    c) contour  
    d) sampling
 
-   Answer: d  
+   answer: d  
    Explanation: The samp
 
-1. The transition between continuous values of the image function and its digital equivalent is called **\_\_\_\_\_**  
+1. The transition between continuous values of the image function and its digital equivalent is called ----------  
    a) Quantisation  
    b) Sampling  
    c) Rasterisation  
    d) None of the Mentioned
 
-   Answer: a  
+   answer: a  
    Explanation: The transition between continuous values of the image function and its digital equivalent is called Quantisation.
 
-1. Images quantised with insufficient brightness levels will lead to the occurrence of **\_\_\_\_**  
+1. Images quantised with insufficient brightness levels will lead to the occurrence of ---------  
    a) Pixillation  
    b) Blurring  
    c) False Contours  
    d) None of the Mentioned
 
-   Answer: c  
+   answer: c  
    Explanation: This effect arises when the number brightness levels is lower that which the human eye can distinguish.
 
-1. The smallest discernible change in intensity level is called **\_\_\_\_**  
+1. The smallest discernible change in intensity level is called ---------  
    a) Intensity Resolution  
    b) Contour  
    c) Saturation  
    d) Contrast
 
-   Answer: a  
+   answer: a  
    Explanation: Number of bits used to quantise intensity of an image is called intensity resolution.
 
 1. Quantitatively, spatial resolution cannot be represented in which of the following ways  
@@ -108,7 +108,7 @@
    c) dots  
    d) none of the Mentioned
 
-   Answer: d  
+   answer: d  
    Explanation: All the options can be used to represent spatial resolution.
 
 1. An image is considered to be a function of a(x,y), where a represents:  
@@ -117,7 +117,7 @@
    c) Amplitude of image  
    d) Resolution of image
 
-   Answer: c  
+   answer: c  
    Explanation: The image is a collection of dots with a definite intensity or amplitude.
 
 1. What is pixel?  
@@ -126,7 +126,7 @@
    c) Pixel is the cluster of a digital image  
    d) Pixel is the cluster of an analog image
 
-   Answer: a  
+   answer: a  
    Explanation: An Image is a collection of individual points referred as pixel, thus a Pixel is the element of a digital image.
 
 1. Which means the assigning meaning to a recognized object.  
@@ -135,7 +135,7 @@
    c) Acquisition  
    d) Segmentation
 
-   Answer: a  
+   answer: a  
    Explanation: The interpretation is called the assigning meaning to recognized object.
 
 1. What is the first and foremost step in Image Processing?  
@@ -144,7 +144,7 @@
    c) Image acquisition  
    d) Segmentation
 
-   Answer: c  
+   answer: c  
    Explanation: Image acquisition is the first process in image processing. Note that acquisition could be as simple as being given an image that is already in digital form. Generally, the image acquisition stage involves preprocessing, such as scaling.
 
 1. In which step of processing, the images are subdivided successively into smaller regions?  
@@ -153,7 +153,7 @@
    c) Segmentation  
    d) Wavelets
 
-   Answer: d  
+   answer: d  
    Explanation: Wavelets are the foundation for representing images in various degrees of resolution. Wavelets are particularly used for image data compression and for pyramidal representation, in which images are subdivided successively into smaller regions.
 
 1. What is the next step in image processing after compression?  
@@ -162,7 +162,7 @@
    c) Representation and description  
    d) Morphological processing
 
-   Answer: d  
+   answer: d  
    Explanation: Steps in image processing:  
    Image acquisition-> Image enhancement-> Image restoration-> Color image processing-> Wavelets and multi resolution processing-> Compression-> Morphological processing-> Segmentation-> Representation & description-> Object recognition.
 
@@ -172,7 +172,7 @@
    c) Image restoration  
    d) Image acquisition
 
-   Answer: c  
+   answer: c  
    Explanation: Steps in image processing:  
    Image acquisition-> Image enhancement-> Image restoration-> Color image processing-> Wavelets and multi resolution processing-> Compression-> Morphological processing-> Segmentation-> Representation & description-> Object recognition.
 
@@ -182,7 +182,7 @@
    c) 11  
    d) 12
 
-   Answer: a  
+   answer: a  
    Explanation: Steps in image processing:  
    Image acquisition-> Image enhancement-> Image restoration-> Color image processing-> Wavelets and multi resolution processing-> Compression-> Morphological processing-> Segmentation-> Representation & description-> Object recognition.
 
@@ -192,7 +192,7 @@
    c) Joint Photographs Expansion Group  
    d) Joint Photographic Expanded Group
 
-   Answer: b  
+   answer: b  
    Explanation: Image compression is familiar (perhaps inadvertently) to most users of computers in the form of image file extensions, such as the jpg file extension used in the JPEG (Joint Photographic Experts Group) image compression standard.
 
 1. Which of the following step deals with tools for extracting image components those are useful in the representation and description of shape?  
@@ -201,7 +201,7 @@
    c) Compression  
    d) Morphological processing
 
-   Answer: d  
+   answer: d  
    Explanation: Morphological processing deals with tools for extracting image components that are useful in the representation and description of shape. The material in this chapter begins a transition from processes that output images to processes that output image attributes.
 
 1. In which step of the processing, assigning a label (e.g., “vehicle”) to an object based on its descriptors is done?  
@@ -210,7 +210,7 @@
    c) Segmentation  
    d) Representation & description
 
-   Answer: a  
+   answer: a  
    Explanation: Recognition is the process that assigns a label (e.g., “vehicle”) to an object based on its descriptors. We conclude our coverage of digital image processing with the development of methods for recognition of individual objects.
 
 1. What role does the segmentation play in image processing?  
@@ -219,7 +219,7 @@
    c) Deals with partitioning an image into its constituent parts or objects  
    d) Deals with property in which images are subdivided successively into smaller regions
 
-   Answer: c  
+   answer: c  
    Explanation: Segmentation procedures partition an image into its constituent parts or objects. In general, autonomous segmentation is one of the most difficult tasks in digital image processing. A rugged segmentation procedure brings the process a long way toward successful solution of imaging problems that require objects to be identified individually.
 
 1. What is the correct sequence of steps in image processing?  
@@ -228,7 +228,7 @@
    c) Image acquisition->Image enhancement->Color image processing->Image restoration->Wavelets and multi resolution processing->Compression->Morphological processing->Segmentation->Representation & description->Object recognition  
    d) Image acquisition->Image enhancement->Image restoration->Color image processing->Wavelets and multi resolution processing->Compression->Morphological processing->Representation & description->Segmentation->Object recognition
 
-   Answer: b  
+   answer: b  
    Explanation: Steps in image processing:  
    Image acquisition-> Image enhancement->Image restoration->Color image processing->Wavelets and multi resolution processing->Compression->Morphological processing->Segmentation->Representation & description->Object recognition.
 
@@ -238,93 +238,95 @@
    c) Both Sampling and Quantization  
    d) Neither Sampling nor Quantization
 
-   Answer: c  
+   answer: c  
    Explanation: The output of the most sensor is a continuous waveform and the amplitude and spatial behavior of such waveform are related to the physical phenomenon being sensed.
 
-1. Assume that an image f(x, y) is sampled so that the result has M rows and N columns. If the values of the coordinates at the origin are (x, y) = (0, 0), then the notation (0, 1. is used to signify :  
-   a) Second sample along first row  
-   b) First sample along second row  
-   c) First sample along first row  
-   d) Second sample along second row
+1. Assume that an image f(x, y) is sampled so that the result has M rows and N columns. If the values of the coordinates at the origin are (x, y) = (0, 0), then the notation (0,
+1. is used to signify :  
+    a) Second sample along first row  
+    b) First sample along second row  
+    c) First sample along first row  
+    d) Second sample along second row
 
-   Answer: a  
-   Explanation: The values of the coordinates at the origin are (x, y) = (0, 0). Then, the next coordinate values (second sample) along the first row of the image are represented as (x, y) = (0, 1..
+   answer: a  
+    Explanation: The values of the coordinates at the origin are (x, y) = (0, 0). Then, the next coordinate values (second sample) along the first row of the image are represented as (x, y) = (0,  
+   1..
 
-1. The resulting image of sampling and quantization is considered a matrix of real numbers. By what name(s) the element of this matrix array is called **\_\_\_\_\_\_\_\_**  
+1. The resulting image of sampling and quantization is considered a matrix of real numbers. By what name(s) the element of this matrix array is called ----------  
    a) Image element or Picture element  
    b) Pixel or Pel  
    c) All of the mentioned  
    d) None of the mentioned
 
-   Answer: c  
+   answer: c  
    Explanation: Sampling and Quantization of an image f(x, y) forms a matrix of real numbers and each element of this matrix array is commonly known as Image element or Picture element or Pixel or Pel.
 
 1. Validate the statement “When in an Image an appreciable number of pixels exhibit high dynamic range, the image will have high contrast.”  
    a) True  
    b) False
 
-   Answer: a  
+   answer: a  
    Explanation: In an Image if an appreciable number of pixels exhibit high dynamic range property, the image will have high contrast.
 
-1. A continuous image is digitized at **\_\_** points.  
+1. A continuous image is digitized at ---------- points.  
    a) random  
    b) vertex  
    c) contour  
    d) sampling
 
-   Answer: d  
+   answer: d  
    Explanation: The sampling points are ordered in the plane and their relation is called a Grid.
 
-1. The transition between continuous values of the image function and its digital equivalent is called **\_\_\_\_\_\_\_\_**  
+1. The transition between continuous values of the image function and its digital equivalent is called ----------  
    a) Quantization  
    b) Sampling  
    c) Rasterization  
    d) None of the Mentioned
 
-   Answer: a  
+   answer: a  
    Explanation: The transition between continuous values of the image function and its digital equivalent is called Quantization.
 
-1. The smallest discernible change in intensity level is called **\_\_\_\_**  
+1. The smallest discernible change in intensity level is called ---------  
    a) Intensity Resolution  
    b) Contour  
    c) Saturation  
    d) Contrast
 
-   Answer: a  
+   answer: a  
    Explanation: Number of bits used to quantize intensity of an image is called intensity resolution.
 
-1. The section of the real plane spanned by the coordinates of an image is called the **\_\_\_\_\_**  
+1. The section of the real plane spanned by the coordinates of an image is called the ----------  
    a) Spacial Domain  
    b) Coordinate Axes  
    c) Plane of Symmetry  
    d) None of the Mentioned
 
-   Answer: a  
+   answer: a  
    Explanation: The section of the real plane spanned by the coordinates of an image is called the Spacial Domain, with the x and y coordinates referred to as Spacial coordinates.
 
-1. The difference between the highest and the lowest intensity levels in an image is **\_\_\_\_**  
+1. The difference between the highest and the lowest intensity levels in an image is ---------  
    a) Noise  
    b) Saturation  
    c) Contrast  
    d) Brightness
 
-   Answer: c  
+   answer: c  
    Explanation: Contrast is the measure of the difference is intensity between the highest and the lowest intensity levels in an image.
 
-1. Image processing approaches operating directly on pixels of input image work directly in \***\*\_\_\*\***  
+1. Image processing approaches operating directly on pixels of input image work directly in ----------  
    a) Transform domain  
    b) Spatial domain  
    c) Inverse transformation  
    d) None of the Mentioned
 
-   Answer: b  
+   answer: b  
    Explanation: Operations directly on pixels of input image work directly in Spatial Domain.
 
 1. Noise reduction is obtained by blurring the image using smoothing filter.  
    a) True  
    b) False
 
-   Answer: a  
+   answer: a  
    Explanation: Noise reduction is obtained by blurring the image using smoothing filter. Blurring is used in pre-processing steps, such as removal of small details from an image prior to object extraction and, bridging of small gaps in lines or curves.
 
 1. What is the output of a smoothing, linear spatial filter?  
@@ -333,14 +335,14 @@
    c) Minimum of pixels  
    d) Average of pixels
 
-   Answer: d  
+   answer: d  
    Explanation: The output or response of a smoothing, linear spatial filter is simply the average of the pixels contained in the neighbourhood of the filter mask.
 
 1. Smoothing linear filter is also known as median filter.  
    a) True  
    b) False
 
-   Answer: b  
+   answer: b  
    Explanation: Since the smoothing spatial filter performs the average of the pixels, it is also called as averaging filter.
 
 1. Which of the following in an image can be removed by using smoothing filter?  
@@ -349,7 +351,7 @@
    c) Sharp transitions of gray levels  
    d) Sharp transitions of brightness levels
 
-   Answer: c  
+   answer: c  
    Explanation: Smoothing filter replaces the value of every pixel in an image by the average value of the gray levels. So, this helps in removing the sharp transitions in the gray levels between the pixels. This is done because, random noise typically consists of sharp transitions in gray levels.
 
 1. Which of the following is the disadvantage of using smoothing filter?  
@@ -358,7 +360,7 @@
    c) Remove sharp transitions  
    d) Sharp edges
 
-   Answer: a  
+   answer: a  
    Explanation: Edges, which almost always are desirable features of an image, also are characterized by sharp transitions in gray level. So, averaging filters have an undesirable side effect that they blur these edges.
 
 1. The mask shown in the figure below belongs to which type of filter?  
@@ -368,7 +370,7 @@
     c) Sharpening frequency filter  
     d) Smoothing spatial filter
 
-   Answer: d  
+   answer: d  
     Explanation: This is a smoothing spatial filter. This mask yields a so called weighted average, which means that different pixels are multiplied with different coefficient values. This helps in giving much importance to the some pixels at the expense of others.
 
 1. The mask shown in the figure below belongs to which type of filter?  
@@ -378,7 +380,7 @@
     c) Smoothing spatial filter  
     d) Sharpening frequency filter
 
-   Answer: c  
+   answer: c  
     Explanation: The mask shown in the figure represents a 3×3 smoothing filter. Use of this filter yields the standard average of the pixels under the mask.
 
 1. If the size of the averaging filter used to smooth the original image to first image is 9, then what would be the size of the averaging filter used in smoothing the same original picture to second in second image?  
@@ -388,7 +390,7 @@
     c) 9  
     d) 15
 
-   Answer: d  
+   answer: d  
     Explanation: We know that, as the size of the filter used in smoothening the original image that is averaging filter increases then the blurring of the image. Since the second image is more blurred than the first image, the window size should be more than 9.
 
 1. Median filter belongs to which category of filters?  
@@ -397,14 +399,14 @@
    c) Order static filter  
    d) Sharpening filter
 
-   Answer: c  
+   answer: c  
    Explanation: The median filter belongs to order static filters, which, as the name implies, replaces the value of the pixel by the median of the gray levels that are present in the neighbourhood of the pixels.
 
 1. Median filters are effective in the presence of impulse noise.  
    a) True  
    b) False
 
-   Answer: a  
+   answer: a  
    Explanation: Median filters are used to remove impulse noises, also called as salt-and-pepper noise because of its appearance as white and black dots in the image.
 
 1. In Homomorphic filtering which of the following operations is used to convert input image to discrete Fourier transformed function?  
@@ -413,7 +415,7 @@
    c) Negative transformation  
    d) None of the mentioned
 
-   Answer: a  
+   answer: a  
    Explanation: For an image is expressed as the multiplication of illumination and reflectance component i.e. f(x, y) = i(x, y) \* r(x, y), the equation can’t be used directly to operate separately on the frequency component of illumination and reflectance because the Fourier transform of the product of two function is not separable. So, the logarithmic operation is used.I{z(x,y)}=I{ln⁡(f(x,y)) }=I{ln⁡(i(x,y)) }+I{ln⁡(r(x,y))}.
 
 1. **Convolution in Spatial Domain** Is _Multiplication_ in **Frequency Domain**.
@@ -547,132 +549,242 @@
    b) f(x+y)=T[g(x+y)]  
    c) g(xy)=T[f(xy)]  
    d) g(x-y)=T[f(x-y)]
-   Answer: a  
+
+   answer: a  
    Explanation: Spatial domain processes will be denoted by the expression g(x,y)=T[f(x,y)], where f(x,y) is the input image, g(x,y) is the processed image, and T is an operator on f, defined over some neighborhood of (x, y). In addition, T can operate on a set of input images, such as performing the pixel-by-pixel sum of K images for noise reduction.
+
 1. Which of the following is the primary objective of sharpening of an image?  
    a) Blurring the image  
    b) Highlight fine details in the image  
    c) Increase the brightness of the image  
    d) Decrease the brightness of the image
-   Answer: b  
+
+   answer: b  
    Explanation: The sharpening of image helps in highlighting the fine details that are present in the image or to enhance the details that are blurred due to some reason like adding noise.
+
 1. Image sharpening process is used in electronic printing.  
    a) True  
    b) False
-   Answer: a  
+
+   answer: a  
    Explanation: The applications of image sharpening is present in various fields like electronic printing, autonomous guidance in military systems, medical imaging and industrial inspection.
+
 1. In spatial domain, which of the following operation is done on the pixels in sharpening the image?  
    a) Integration  
    b) Average  
    c) Median  
    d) Differentiation
-   Answer: d  
+
+   answer: d  
    Explanation: We know that, in blurring the image, we perform the average of pixels which can be considered as integration. As sharpening is the opposite process of blurring, logically we can tell that we perform differentiation on the pixels to sharpen the image.
+
 1. Image differentiation enhances the edges, discontinuities and deemphasizes the pixels with slow varying gray levels.  
    a) True  
    b) False
-   Answer: a  
+
+   answer: a  
    Explanation: Fundamentally, the strength of the response of the derivative operative is proportional to the degree of discontinuity in the image. So, we can state that image differentiation enhances the edges, discontinuities and deemphasizes the pixels with slow varying gray levels.
+
 1. If f(x,y) is an image function of two variables, then the first order derivative of a one dimensional function, f(x) is:  
-   a) f(x+1.-f(x)  
-   b) f(x)-f(x+1.  
-   c) f(x-1.-f(x+1.  
-   d) f(x)+f(x-1.
-   Answer: a  
+    a) f(x+1.-f(x)  
+    b) f(x)-f(x+1.  
+   c) f(x-1.-f(x+  
+   d) f(x)+f(x- 1.
+
+   answer: a  
    Explanation: The first order derivative of a single dimensional function f(x) is the difference between f(x) and f(x+1..  
    That is, ∂f/∂x=f(x+1.-f(x).
+
 1. Isolated point is also called as noise point.  
    a) True  
    b) False
-   Answer: a  
+
+   answer: a  
    Explanation: The point which has very high or very low gray level value compared to its neighbours, then that point is called as isolated point or noise point. The noise point of is of one pixel size.
+
 1. What is the thickness of the edges produced by first order derivatives when compared to that of second order derivatives?  
    a) Finer  
    b) Equal  
    c) Thicker  
    d) Independent
-   Answer: c  
+
+   answer: c  
    Explanation: We know that, the first order derivative is nonzero along the entire ramp while the second order is zero along the ramp. So, we can conclude that the first order derivatives produce thicker edges and the second order derivatives produce much finer edges.
+
 1. First order derivative can enhance the fine detail in the image compared to that of second order derivative.  
    a) True  
    b) False
-   Answer: b  
+
+   answer: b  
    Explanation: The response at and around the noise point is much stronger for the second order derivative than for the first order derivative. So, we can state that the second order derivative is better to enhance the fine details in the image including noise when compared to that of first order derivative.
+
 1. Which of the following derivatives produce a double response at step changes in gray level?  
    a) First order derivative  
    b) Third order derivative  
    c) Second order derivative  
    d) First and second order derivatives
-   Answer: c  
+
+   answer: c  
    Explanation: Second order derivatives produce a double line response for the step changes in the gray level. We also note of second-order derivatives that, for similar changes in gray-level values in an image, their response is stronger to a line than to a step, and to a point than to a line.
+
 1. The objective of sharpening spatial filters is/are to ------  
    a) Highlight fine detail in an image  
    b) Enhance detail that has been blurred because of some error  
    c) Enhance detail that has been blurred because of some natural effect of some method of image acquisition  
    d) All of the mentioned
-   Answer: d  
+
+   answer: d  
    Explanation: Highlighting the fine detail in an image or Enhancing detail that has been blurred because of some error or some natural effect of some method of image acquisition, is the principal objective of sharpening spatial filters.
+
 1. Sharpening is analogous to which of the following operations?  
    a) To spatial integration  
    b) To spatial differentiation  
    c) All of the mentioned  
    d) None of the mentioned
-   Answer: b  
+
+   answer: b  
    Explanation: Smoothing is analogous to integration and so, sharpening to spatial differentiation.
+
 1. What kind of relation can be obtained between first order derivative and second order derivative of an image having a on the basis of edge productions that shows a transition like a ramp of constant slope?  
    a) First order derivative produces thick edge while second order produces a very fine edge  
    b) Second order derivative produces thick edge while first order produces a very fine edge  
    c) Both first and second order produces thick edge  
    d) Both first and second order produces a very fine edge
-   Answer: a  
+
+   answer: a  
    Explanation: the first order derivative remains nonzero along the entire ramp of constant slope, while the second order derivative remain nonzero only at onset and end of such ramps.  
    If an edge in an image shows transition like the ramp of constant slope, the first order and second order derivative values shows the production of thick and finer edge respectively.
+
 1. What kind of relation can be obtained between first order derivative and second order derivative of an image on the response obtained by encountering an isolated noise point in the image?  
    a) First order derivative has a stronger response than a second order  
    b) Second order derivative has a stronger response than a first order  
    c) Both enhances the same and so the response is same for both first and second order derivative  
    d) None of the mentioned
-   Answer: b  
+
+   answer: b  
    Explanation: This is because a second order derivative is more aggressive toward enhancing sharp changes than a first order.
+
 1. How can Sharpening be achieved?  
    a) Pixel averaging  
    b) Slicing  
    c) Correlation  
    d) None of the mentioned
-   Answer: d  
+
+   answer: d  
    Explanation: Sharpening is achieved using Spatial Differentiation.
+
 1. What does Image Differentiation enhance?  
    a) Edges  
    b) Pixel Density  
    c) Contours  
    d) None of the mentioned
-   Answer: a  
+
+   answer: a  
    Explanation: Image Differentiation enhances Edges and other discontinuities.
+
 1. What is the Second Derivative of Image Sharpening called?  
    a) Gaussian  
    b) Laplacian  
    c) Canny  
    d) None of the mentioned
-   Answer: b  
+
+   answer: b  
    Explanation: It is also called Laplacian.
+
 1. For a function f(x,y), the gradient of ‘f’ at coordinates (x,y) is defined as a ------  
    a) 3-D row vector  
    b) 3-D column vector  
    c) 2-D row vector  
    d) 2-D column vector
-   Answer: d  
+
+   answer: d  
    Explanation: The gradient is a 2-D column vector.
+
 1. Which of the following occurs in Unsharp Masking?  
    a) Blurring original image  
    b) Adding a mask to original image  
    c) Subtracting blurred image from original  
    d) All of the mentioned
-   Answer: d  
+
+   answer: d  
    Explanation: In Unsharp Masking, all of the above occurs in the order: Blurring, Subtracting the blurred image and then Adding the mask.
+
 1. Which of the following is a second-order derivative operator?  
    a) Histogram  
    b) Laplacian  
    c) Gaussian  
    d) None of the mentioned
-   Answer: b  
+
+   answer: b  
    Explanation: Laplacian is a second-order derivative operator.
+
+1. Response of the gradient to noise and fine detail is --------- the Laplacian’s.  
+   a) equal to  
+   b) lower than  
+   c) greater than  
+   d) has no relation with
+
+   answer: b  
+   Explanation: Response of the gradient to noise and fine detail is lower than the Laplacian’s and can further be lowered by smoothing.
+
+1. Which of the following fails to work on dark intensity distributions?  
+   a) Laplacian Transform  
+   b) Gaussian Transform  
+   c) Histogram Equalization  
+   d) Power-law Transformation
+
+   answer: c  
+   Explanation: Histogram Equalization fails to work on dark intensity distributions.
+
+1. An alternate approach to median filtering is ---------  
+   a) Use a mask  
+   b) Gaussian filter  
+   c) Sharpening  
+   d) Laplacian filter
+
+   Answer:a  
+   Explanation: Using a mask, formed from the smoothed version of the gradient image, can be used for median filtering.
+
+1. What is accepting or rejecting certain frequency components called as?  
+   a) Filtering  
+   b) Eliminating  
+   c) Slicing  
+   d) None of the Mentioned
+
+   answer: a  
+   Explanation: Filtering is the process of accepting or rejecting certain frequency components.
+
+1. A filter that passes low frequencies is ---------  
+   a) Band pass filter  
+   b) High pass filter  
+   c) Low pass filter  
+   d) None of the Mentioned
+
+   answer: c  
+   Explanation: Low pass filter passes low frequencies.
+
+1. What is required to generate an M X N linear spatial filter?  
+   a) MN mask coefficients  
+   b) M+N coordinates  
+   c) MN spatial coefficients  
+   d) None of the Mentioned
+
+   answer: a  
+   Explanation: To generate an M X N linear spatial filter MN mask coefficients must be specified.
+
+1. An example of a continuous function of two variables is ---------  
+   b) Intensity function  
+   c) Contrast stretching  
+   d) Gaussian function
+
+   answer: d  
+   Explanation: Gaussian function has two variables and is an exponential continuous function
+
+1. The histogram of a digital image with gray levels in the range [0, L-1] is represented by a discrete function:  
+   a) h(r_k)=n_k  
+   b) h(r_k )=n/n_k  
+   c) p(r_k )=n_k  
+   d) h(r_k )=n_k/n
+
+   answer: a  
+   Explanation: The histogram of a digital image with gray levels in the range [0, L-1] is a discrete function h(rk )=nk, where rk is the kth gray level and nkis the number of pixels in the image having gray level rk.
