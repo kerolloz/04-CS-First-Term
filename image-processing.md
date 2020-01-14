@@ -362,31 +362,34 @@
    Explanation: Edges, which almost always are desirable features of an image, also are characterized by sharp transitions in gray level. So, averaging filters have an undesirable side effect that they blur these edges.
 
 1. The mask shown in the figure below belongs to which type of filter?  
-   a) Sharpening spatial filter  
-   b) Median filter  
-   c) Sharpening frequency filter  
-   d) Smoothing spatial filter
+   ![img](https://www.sanfoundry.com/wp-content/uploads/2017/06/digital-image-processing-questions-answers-smoothing-spatial-filters-q7@2x.png)  
+    a) Sharpening spatial filter  
+    b) Median filter  
+    c) Sharpening frequency filter  
+    d) Smoothing spatial filter
 
    Answer: d  
-   Explanation: This is a smoothing spatial filter. This mask yields a so called weighted average, which means that different pixels are multiplied with different coefficient values. This helps in giving much importance to the some pixels at the expense of others.
+    Explanation: This is a smoothing spatial filter. This mask yields a so called weighted average, which means that different pixels are multiplied with different coefficient values. This helps in giving much importance to the some pixels at the expense of others.
 
 1. The mask shown in the figure below belongs to which type of filter?  
-   a) Sharpening spatial filter  
-   b) Median filter  
-   c) Smoothing spatial filter  
-   d) Sharpening frequency filter
+   ![img](https://www.sanfoundry.com/wp-content/uploads/2017/06/digital-image-processing-questions-answers-smoothing-spatial-filters-q8@2x.png)  
+    a) Sharpening spatial filter  
+    b) Median filter  
+    c) Smoothing spatial filter  
+    d) Sharpening frequency filter
 
    Answer: c  
-   Explanation: The mask shown in the figure represents a 3×3 smoothing filter. Use of this filter yields the standard average of the pixels under the mask.
+    Explanation: The mask shown in the figure represents a 3×3 smoothing filter. Use of this filter yields the standard average of the pixels under the mask.
 
 1. If the size of the averaging filter used to smooth the original image to first image is 9, then what would be the size of the averaging filter used in smoothing the same original picture to second in second image?  
-   a) 3  
-   b) 5  
-   c) 9  
-   d) 15
+   ![img](https://www.sanfoundry.com/wp-content/uploads/2017/06/digital-image-processing-questions-answers-smoothing-spatial-filters-q10.png)  
+    a) 3  
+    b) 5  
+    c) 9  
+    d) 15
 
    Answer: d  
-   Explanation: We know that, as the size of the filter used in smoothening the original image that is averaging filter increases then the blurring of the image. Since the second image is more blurred than the first image, the window size should be more than 9.
+    Explanation: We know that, as the size of the filter used in smoothening the original image that is averaging filter increases then the blurring of the image. Since the second image is more blurred than the first image, the window size should be more than 9.
 
 1. Median filter belongs to which category of filters?  
    a) Linear spatial filter  
