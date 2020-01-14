@@ -524,7 +524,7 @@
    c) Laplacian Filter  
    d) **Median**
 
-1. the sum of all elements inthe mask of the smoothing averaging spatial filtering must be equal to
+1. the sum of all elements inthe mask of the smoothing averaging spatial filtering must be equal to  
    a) m rows  
    b) n columns  
    c) n\*m  
