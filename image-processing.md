@@ -66,7 +66,7 @@
    C. 4 levels  
    D. 5 levels
 
-1. A continuous image is digitised at **\_** points.  
+1. A continuous image is digitised at **\_\_** points.  
    a) random  
    b) vertex  
    c) contour  
@@ -75,7 +75,7 @@
    Answer: d  
    Explanation: The samp
 
-1. The transition between continuous values of the image function and its digital equivalent is called \***\*\_\_\_\_\*\***  
+1. The transition between continuous values of the image function and its digital equivalent is called **\_\_\_\_\_**  
    a) Quantisation  
    b) Sampling  
    c) Rasterisation  
@@ -84,7 +84,7 @@
    Answer: a  
    Explanation: The transition between continuous values of the image function and its digital equivalent is called Quantisation.
 
-1. Images quantised with insufficient brightness levels will lead to the occurrence of \***\*\_\_\*\***  
+1. Images quantised with insufficient brightness levels will lead to the occurrence of **\_\_\_\_**  
    a) Pixillation  
    b) Blurring  
    c) False Contours  
@@ -93,7 +93,7 @@
    Answer: c  
    Explanation: This effect arises when the number brightness levels is lower that which the human eye can distinguish.
 
-1. The smallest discernible change in intensity level is called \***\*\_\_\*\***  
+1. The smallest discernible change in intensity level is called **\_\_\_\_**  
    a) Intensity Resolution  
    b) Contour  
    c) Saturation  
@@ -118,7 +118,6 @@
    d) Resolution of image
 
    Answer: c  
-   Explanation: The image is a collection of dots with a definite intensity or amplitude.  
    Explanation: The image is a collection of dots with a definite intensity or amplitude.
 
 1. What is pixel?  
@@ -251,7 +250,7 @@
    Answer: a  
    Explanation: The values of the coordinates at the origin are (x, y) = (0, 0). Then, the next coordinate values (second sample) along the first row of the image are represented as (x, y) = (0, 1..
 
-1. The resulting image of sampling and quantization is considered a matrix of real numbers. By what name(s) the element of this matrix array is called **\_\_\_\_**  
+1. The resulting image of sampling and quantization is considered a matrix of real numbers. By what name(s) the element of this matrix array is called **\_\_\_\_\_\_\_\_**  
    a) Image element or Picture element  
    b) Pixel or Pel  
    c) All of the mentioned  
@@ -267,7 +266,7 @@
    Answer: a  
    Explanation: In an Image if an appreciable number of pixels exhibit high dynamic range property, the image will have high contrast.
 
-1. A continuous image is digitized at **\_** points.  
+1. A continuous image is digitized at **\_\_** points.  
    a) random  
    b) vertex  
    c) contour  
@@ -276,7 +275,7 @@
    Answer: d  
    Explanation: The sampling points are ordered in the plane and their relation is called a Grid.
 
-1. The transition between continuous values of the image function and its digital equivalent is called \***\*\_\_\_\_\*\***  
+1. The transition between continuous values of the image function and its digital equivalent is called **\_\_\_\_\_\_\_\_**  
    a) Quantization  
    b) Sampling  
    c) Rasterization  
@@ -285,7 +284,7 @@
    Answer: a  
    Explanation: The transition between continuous values of the image function and its digital equivalent is called Quantization.
 
-1. The smallest discernible change in intensity level is called \***\*\_\_\*\***  
+1. The smallest discernible change in intensity level is called **\_\_\_\_**  
    a) Intensity Resolution  
    b) Contour  
    c) Saturation  
@@ -294,7 +293,7 @@
    Answer: a  
    Explanation: Number of bits used to quantize intensity of an image is called intensity resolution.
 
-1. The section of the real plane spanned by the coordinates of an image is called the \***\*\_\_\_\*\***  
+1. The section of the real plane spanned by the coordinates of an image is called the **\_\_\_\_\_**  
    a) Spacial Domain  
    b) Coordinate Axes  
    c) Plane of Symmetry  
@@ -303,10 +302,11 @@
    Answer: a  
    Explanation: The section of the real plane spanned by the coordinates of an image is called the Spacial Domain, with the x and y coordinates referred to as Spacial coordinates.
 
-1. The difference is intensity between the highest and the lowest intensity levels in an image is \***\*\_\*\***  
+1. The difference is intensity between the highest and the lowest intensity levels in an image is **\_\_\_\_**  
    a) Noise  
    b) Saturation  
    c) Contrast  
    d) Brightness
+
    Answer: c  
    Explanation: Contrast is the measure of the difference is intensity between the highest and the lowest intensity levels in an image.
