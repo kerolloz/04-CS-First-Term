@@ -1408,3 +1408,143 @@
 
    Answer: a
    Explanation: If Laplacian is used to obtain sharp image for unsharp mask filtered image, then
+
+1. Why is scaling of Laplacian filtered images necessary?
+    a) Because it contain high positive values  
+    b) Because it contain high negative value  
+    c) Because it contain both positive and negative values  
+    d) None of the mentioned  
+
+    Answer: c
+    Explanation: A Laplacian filtered image contain both positive and negative values of comparable magnitudes. So, scaling is necessary.
+
+1. Which of the following fact is true for the masks that includes diagonal neighbors than the masks that doesn’t?
+
+    a) Mask that excludes diagonal neighbors has more sharpness than the masks that doesn’t  
+    b) Mask that includes diagonal neighbors has more sharpness than the masks that doesn’t  
+    c) Both masks have same sharpness result  
+    d) None of the mentioned  
+
+    Answer: b
+    Explanation: Including diagonal neighbor pixels enhances sharpness of the image. So, Mask that includes diagonal neighbors has more sharpness than the masks that doesn’t.
+
+1. The expression [∂2 f(x,y)/∂x2 +∂2 f(x,y)/∂y2] is considered as _________ where f(x, y) is an input image.
+
+    a) Laplacian of f(x, y)  
+    b) Gradient of f(x, y)  
+    c) All of the mentioned  
+    d) None of the mentioned  
+
+    Answer: a
+    Explanation: The Laplacian for an image f(x, y) is defined as: ∇2 f=∂2 f/∂x2 + ∂2 f/∂y2 .
+
+1. Assuming that the origin of F(u, v), Fourier transformed function of f(x, y) an input image, has been correlated by performing the operation f(x, y)(-1)x+y prior to taking the transform of the image. If F and f are of same size, then what does the given operation is/are supposed to do?
+
+    a) Resize the transform  
+    b) Rotate the transform  
+    c) Shifts the center transform  
+    d) All of the mentioned  
+
+    Answer: c
+    Explanation: The given operation f(x, y)(-1)x+y shifts the center transform so that (u, v)=(0,0) is at point (M/2, N/2) for F and f of same size M*N.
+
+1. Computing the Fourier transform of the Laplacian result in spatial domain is equivalent to multiplying the F(u, v), Fourier transformed function of f(x, y) an input image, and H(u, v), the filter used for implementing Laplacian in frequency domain. This dual relationship is expressed as _________
+
+    a) Fourier transform pair notation  
+    b) Laplacian  
+    c) Gradient  
+    d) None of the mentioned
+
+    Answer: a
+    Explanation: The Fourier transform of the Laplacian result in spatial domain is equivalent to multiplying the F(u, v) and H(u, v). This dual relationship is expressed as Fourier transform pair notation given by: ∇2 f(x,y)-[(u – M/2)2+ (v – N/2)2]F(u,v), for an image of size M *N.
+
+1. An enhanced image can be obtained as: g(x,y)=f(x,y)-∇2 f(x,y), where Laplacian is being subtracted from f(x, y) the input image. What does this conclude?
+
+    a) That the center spike would be negative  
+    b) That the immediate neighbors of center spike would be positive.  
+    c) All of the mentioned  
+    d) None of the mentioned
+
+    Answer: c
+    Explanation: For the above given enhanced image the Laplacian subtraction suggest that the center coefficient of Laplacian mask is negative and so the center spike is negative with its immediate neighbors being positive.
+
+1. An image has significant edge details. Which of the following fact(s) is/are true for the gradient image and the Laplacian image of the same?
+
+    a) The gradient image is brighter than the Laplacian image  
+    b) The gradient image is brighter than the Laplacian image  
+    c) Both the gradient image and the Laplacian image has equal values  
+    d) None of the mentioned  
+
+    Answer: a
+    Explanation: Because the gradient enhances prominent edges better than Laplacian, so, the Gradient image with significant edge detail has higher value than in Laplacian image.
+
+1. What is the sum of the coefficient of the mask defined using gradient?
+
+    a) 1  
+    b) -1  
+    c) 0  
+    d) None of the mentioned  
+
+    Answer: c
+    Explanation: Since, first order derivative of a digital function must be zero in the areas of constant grey values. So, the mask using gradient has a sum 0, so to produce a zero result if applied on constant gray level areas.
+
+1. Gradient is used in which of the following area(s)?
+            
+    a) To aid humans in detection of defects  
+    b) As a preprocessing step for automated inspections  
+    c) All of the mentioned  
+    d) None of the mentioned  
+
+    Answer: c
+    Explanation: Gradient has a usage in both human analysis as well as a preprocessing step for automated inspections.
+
+1. Gradient have some important features. Which of the following is/are some of 
+them?
+
+    a) Enhancing small discontinuities in an otherwise flat gray field  
+    b) Enhancing prominent edges  
+    c) All of the mentioned  
+    d) None of the mentioned  
+
+    Answer: c
+    Explanation: Since gradient are used in fist order derivative image enhancement that enhances the discontinuities except for in flat areas and produces thick edge for constant slope ramp. So, Gradient has all the mentioned features.
+
+1. “For very large value of A, a high boost filtered image is approximately equal to the original image”. State whether the statement is true or false?
+        
+    a) True  
+    b) False  
+
+    Answer: a
+    Explanation: As the value of A increases, sharpening process contribution becomes less important and so at some very large value A, the contribution becomes almost negligible and so high boost filtered image is approximately equal to the original image.
+
+1. Subtracting Laplacian from an image is proportional to which of the following?
+    a) Unsharp masking  
+    b) Box filter  
+    c) Median filter  
+    d) None of the mentioned  
+    
+    Answer: a
+    Explanation: subtracting Laplacian from an image gives:
+f(x,y)- ∇2 f(x,y) = f(x, y) – [f(x + 1, y) + f(x – 1, y) + f(x, y + 1) + f(x, y – 1) – 4f(x, y)] That on calculation gives 5[1.2 f(x, y) – f ̅(x, y)] ≈ 5[f(x, y) – f(x, y)] Where f(x, y) – f(x, y) is the unsharp masking definition.
+
+1. A First derivative in image processing is implemented using which of the following given operator(s)?
+        
+    a) Magnitude of Gradient vector  
+    b) The Laplacian  
+    c) All of the mentioned  
+    d) None of the mentioned  
+    
+
+    Answer: a
+    Explanation: Magnitude of Gradient vector is used for implementation of first derivative in image processing, while Laplacian is for second order implementation in image processing.
+
+1. If for an image function f(x, y), the magnitude of gradient vectordigital-image-processing-questions-bank-q4is given by: mag(∇f)=[G2x+G2y] (1/2), then which of the following fact is correct?
+        
+    a) The component of Gradient vector are linear operator and also the magnitude of the vector  
+    b) The component of Gradient vector are linear operator, but the magnitude are not  
+    c) The component of Gradient vector are nonlinear operator and also the magnitude of the vector  
+    d) The component of Gradient vector are nonlinear operator, but the magnitude are not  
+    
+
+    Answer: b
+    Explanation: The component of Gradient vector are linear operator because these are derivatives but the magnitude of the vector are not because of the squaring and square root operations.
