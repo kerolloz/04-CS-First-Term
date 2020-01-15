@@ -1239,21 +1239,22 @@
    c)electro spectrum  
    **d)electro magnetic spectrum**
 
-1) DSP stands for
+
+1. DSP stands for
 
    **a)Digital signal processing**  
    b)Design signal processing  
    c)Digital signal processed  
    d)Design signal processed
 
-1) Full color images have at least
+1. Full color images have at least
 
    a)2 components  
    **b)3 components**  
    c)4 components  
    d)5 components
 
-1) Computation of derivatives in segmentation is also called
+1. Computation of derivatives in segmentation is also called
 
    **a)spatial filtering**  
    b)frequency filtering  
@@ -1281,7 +1282,6 @@
    c)linear  
    d)non linear
 
-
 1. A filter is applied to an image whose response is independent of the direction of discontinuities in the image. The filter is/are **\_\_\_\_**
 
    a) Isotropic filters  
@@ -1299,8 +1299,8 @@
    c) All of the mentioned
    d) None of the mentioned
 
-    Answer: a
-    Explanation: An isotropic filtering is an example of second order derivative for enhancement and uses Laplacian as the simplest derivative operator, while gradient is used with first derivatives.
+   Answer: a
+   Explanation: An isotropic filtering is an example of second order derivative for enhancement and uses Laplacian as the simplest derivative operator, while gradient is used with first derivatives.
 
 1. The Laplacian is which of the following operator?
 
@@ -1330,9 +1330,9 @@
    a) 90o  
    b) 0o  
    c) 45o  
-   d) None of the mentioned  
+   d) None of the mentioned
 
-    Answer: a
+   Answer: a
    Explanation: The given Laplacian gives isotropic result for 90o incremental rotations.
 
 1. The Laplacian incorporated with diagonal directions, i.e. ∇2 f=[f(x + 1, y) + f(x – 1, y) + f(x, y + 1) + f(x, y – 1) – 8f(x, y)], gives an isotropic result for rotations in increment by what degree?
@@ -1340,71 +1340,71 @@
    a) 90o  
    b) 0o  
    c) 45o  
-   d) None of the mentioned  
+   d) None of the mentioned
 
-    Answer: a
-    Explanation: The given Laplacian since includes the diagonal direction, so, gives an isotropic result for 45o incremental rotations.
+   Answer: a
+   Explanation: The given Laplacian since includes the diagonal direction, so, gives an isotropic result for 45o incremental rotations.
 
 1. Applying Laplacian has which of the following result(s)?
 
    a) Produces image having greyish edge lines  
    b) Produces image having featureless background  
    c) All of the mentioned  
-   d) None of the mentioned  
+   d) None of the mentioned
 
-    Answer: c
-    Explanation: Since, Laplacian is a derivative operator, so, highlights the gray-level discontinuities in an image and deemphasizes areas with slowly varying gray levels. Hence, produces images having greyish edge lines superimposed on featureless background.
+   Answer: c
+   Explanation: Since, Laplacian is a derivative operator, so, highlights the gray-level discontinuities in an image and deemphasizes areas with slowly varying gray levels. Hence, produces images having greyish edge lines superimposed on featureless background.
 
 1. Applying Laplacian produces image having featureless background which is recovered maintaining the sharpness of Laplacian operation by either adding or subtracting it from the original image depending upon the Laplacian definition used. Which of the following is true based on above statement?
 
    a) If definition used has a negative center coefficient, then subtraction is done  
    b) If definition used has a positive center coefficient, then subtraction is done  
    c) If definition used has a negative center coefficient, then addition is done  
-   d) None of the mentioned    
+   d) None of the mentioned
 
-    Answer: a
-    Explanation: Applying Laplacian produces image having featureless background which is recovered maintaining the sharpness of Laplacian operation using original image either added if Laplacian definition used has a positive center coefficient or subtracting result from original image if has a negative center coefficient.
+   Answer: a
+   Explanation: Applying Laplacian produces image having featureless background which is recovered maintaining the sharpness of Laplacian operation using original image either added if Laplacian definition used has a positive center coefficient or subtracting result from original image if has a negative center coefficient.
 
 1. A mask of size 3\*3 is formed using Laplacian including diagonal neighbors that has central coefficient as 9. Then, what would be the central coefficient of same mask if it is made without diagonal neighbors?
 
    a) 5  
    b) -5  
    c) 8  
-   d) -8  
+   d) -8
 
-    Answer: a
-    Explanation: The mask formed by eliminating diagonal neighbors i.e. 4f(x, y), since each diagonal contain a -2f(x, y), the mask has 5 as its central coefficient.
+   Answer: a
+   Explanation: The mask formed by eliminating diagonal neighbors i.e. 4f(x, y), since each diagonal contain a -2f(x, y), the mask has 5 as its central coefficient.
 
 1. Which of the following mask(s) is/are used to sharpen images by subtracting a blurred version of original image from the original image itself?
 
    a) Unsharp mask  
    b) High-boost filter  
    c) All of the mentioned  
-   d) None of the mentioned  
+   d) None of the mentioned
 
-    Answer: c
-    Explanation: Unsharp mask sharpens images by subtracting a blurred version of original image from the original image itself.
-    A high-boost filter is a generalized form of unsharp mask.
+   Answer: c
+   Explanation: Unsharp mask sharpens images by subtracting a blurred version of original image from the original image itself.
+   A high-boost filter is a generalized form of unsharp mask.
 
-1. Which of the following gives an expression for high boost filtered image fhb, if f represents an image, f blurred version of f, fs unsharp mask filtered image and A ≥ 1? 
+1. Which of the following gives an expression for high boost filtered image fhb, if f represents an image, f blurred version of f, fs unsharp mask filtered image and A ≥ 1?
 
    a) fhb = (A – 1) f(x, y) + f(x, y) – f x, y)  
    b) fhb = A f(x, y) – f(x,y)  
    c) fhb = (A – 1) f(x, y) + fs(x, y)  
-   d) All of the mentioned  
+   d) All of the mentioned
 
-    Answer: d
-    Explanation: A high-boost filter is a generalized form of unsharp mask and is given by:
-    fhb = A f(x, y) – f (x, y)
-    Or, fhb = (A – 1) f(x, y) + f(x, y) – f(x, y), that can be written as
-    fhb = (A – 1) f(x, y) + fs(x, y), where fs(x, y) = f(x, y) – f (x, y).
+   Answer: d
+   Explanation: A high-boost filter is a generalized form of unsharp mask and is given by:
+   fhb = A f(x, y) – f (x, y)
+   Or, fhb = (A – 1) f(x, y) + f(x, y) – f(x, y), that can be written as
+   fhb = (A – 1) f(x, y) + fs(x, y), where fs(x, y) = f(x, y) – f (x, y).
 
 1. If we use a Laplacian to obtain sharp image for unsharp mask filtered image fs(x, y) of f(x, y) as input image, and if the center coefficient of the Laplacian mask is negative then, which of the following expression gives the high boost filtered image fhb, if ∇2 f represent Laplacian?
 
    a) fhb = A f(x, y) – ∇2 f(x,y)  
    b) fhb = A f(x, y) + ∇2 f(x,y)  
    c) fhb = ∇2 f(x,y)  
-   d) None of the mentioned  
+   d) None of the mentioned
 
-    Answer: a
-    Explanation: If Laplacian is used to obtain sharp image for unsharp mask filtered image, then
+   Answer: a
+   Explanation: If Laplacian is used to obtain sharp image for unsharp mask filtered image, then
