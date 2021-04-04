@@ -24,6 +24,7 @@
 1. Ensemble methods can be used to increase overall accuracy by learning and combining a series of individual (base) classifier models. <details> <summary>View answer</summary> :x: </details>
 1. The learning and classification steps of decision tree induction are complex and slow. <details> <summary>View answer</summary> :x: </details>
 1. Decision trees and classification rules can be easy to interpret <details> <summary>View answer</summary> :heavy_check_mark: </details>
+
 ---
 
 1. The **range** is the difference between the largest (max) and the smallest (min).
